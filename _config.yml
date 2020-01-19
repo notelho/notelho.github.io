@@ -4,20 +4,16 @@ email: nimbotelho@gmail.com
 url: "https://enbot.github.io"
 baseurl: ""
 
-twitter_username: minimal_twitter
-github_username:  minimal_github
-
 markdown: kramdown
-permalink: /:title/
+permalink: /:year/:month/:day/:title/
 
 username: Nathan Botelho
-user_description: a
 user_title: Software Developer
+user_description: Software developer, focusing on web front-end, I am a student of information systems with a strong interest in the areas of cyber security, artificial intelligence and data protection.
 
-# twitter_username: lorem_ipsum
-# github_username:  lorem_ipsum
-# gplus_username:  lorem_ipsum
+user_npm: https://www.npmjs.com/~enbot
+user_github: https://github.com/enbot
+user_codepen:  https://codepen.io/NathanBotelho
+user_linkedin: https://www.linkedin.com/in/nathanbotelho/
 
-# # permalink: /:categories/:title
-
-exclude: ['package.json', 'src' , 'node_modules']
+exclude: ['LICENSE', 'package.json', 'src', 'node_modules']

@@ -6,13 +6,21 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
 
     &.home{
         min-height: 100vh;
+        .particles-js-canvas-el {
+            width:100% !important;
+            height:100vh !important;
+        }
     }
 
-    .particles-js-canvas-el {
-        width:100% !important;
-        height:100vh !important;
+    &.page{
+        min-height: 30vh;
+        .particles-js-canvas-el {
+            width:100% !important;
+            height:30vh !important;
+        }
     }
 }

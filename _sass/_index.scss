@@ -4,12 +4,13 @@
 
 @import 'lib/variables';
 @import 'lib/particle';
+@import 'lib/base';
+@import 'lib/animation';
+@import 'lib/footer';
 
 @import 'lib/home-header';
 @import 'lib/home-about';
 @import 'lib/home-projects';
 @import 'lib/home-posts';
 
-@import 'lib/base';
-@import 'lib/animation';
-@import 'lib/footer';
+@import 'lib/page-header';
