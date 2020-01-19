@@ -1,17 +1,14 @@
-title: Blog de Nathan Botelho
+title: Nathan Botelho's Blog
 description: ""
 email: nimbotelho@gmail.com
-baseurl: ""
 url: "https://enbot.github.io"
+baseurl: ""
+
 twitter_username: minimal_twitter
 github_username:  minimal_github
 
-# Build settings
 markdown: kramdown
 permalink: /:title/
-
-
-
 
 username: Nathan Botelho
 user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
