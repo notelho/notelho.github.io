@@ -63,7 +63,7 @@
       margin: 5px;
       border-radius: 50%;
       border: 2px solid #FFF;
-      transition: all .7s;
+      transition: ease-out all .1s;
 
       &.fa-npm::before{
           margin-left: -2px;
