@@ -2,10 +2,13 @@
 @import 'vendor/fontawesome';
 @import 'vendor/normalize';
 
-@import 'lib/base';
 @import 'lib/vars';
+@import 'lib/particle';
+
+@import 'lib/home-header';
+@import 'lib/home-about';
+
+@import 'lib/base';
 @import 'lib/animation';
-@import 'lib/header';
-@import 'lib/about';
 @import 'lib/projects';
 @import 'lib/footer';

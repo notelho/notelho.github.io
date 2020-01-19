@@ -1,0 +1,40 @@
+#about {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 960px;
+
+    @media only screen and (min-width: $cut) {
+        width: 80%;
+    }
+
+    .about__details {
+        text-align: center;
+        margin: 5px auto;
+    }
+
+    .about__user {
+        text-align: center;
+        font-size: 75px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+
+        @media only screen and (max-width: $cut) {
+            flex-wrap: wrap;
+            font-size: 60px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .about__column {
+            width: 30%;
+            margin: 10px;
+
+            @media only screen and (max-width: $cut) {
+                width: 100%;
+            }
+        }
+    }
+}

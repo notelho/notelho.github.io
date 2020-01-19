@@ -1,0 +1,18 @@
+#particles-js {
+    background: $main;
+    display: flex;
+    vertical-align: bottom;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    &.home{
+        min-height: 100vh;
+    }
+
+    .particles-js-canvas-el {
+        width:100% !important;
+        height:100vh !important;
+    }
+}
