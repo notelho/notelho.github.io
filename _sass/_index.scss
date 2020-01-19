@@ -1,3 +1,11 @@
-@import 'base';
-@import 'layout';
-@import 'syntax-highlighting';
+@import 'vendor/devicon';
+@import 'vendor/fontawesome';
+@import 'vendor/normalize';
+
+@import 'lib/base';
+@import 'lib/vars';
+@import 'lib/animation';
+@import 'lib/header';
+@import 'lib/about';
+@import 'lib/projects';
+@import 'lib/footer';
