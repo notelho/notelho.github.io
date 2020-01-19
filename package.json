@@ -1,0 +1,11 @@
+{
+  "name": "enbot.gitgub.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "author": "Nathan Botelho",
+  "license": "MIT"
+}
