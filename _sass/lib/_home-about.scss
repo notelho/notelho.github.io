@@ -3,7 +3,7 @@
     margin: 0 auto;
     max-width: 960px;
 
-    @media only screen and (min-width: $cut) {
+    @media only screen and (min-width: $breakpoint-s) {
         width: 80%;
     }
 
@@ -19,7 +19,7 @@
         flex-wrap: nowrap;
         justify-content: space-between;
 
-        @media only screen and (max-width: $cut) {
+        @media only screen and (max-width: $breakpoint-s) {
             flex-wrap: wrap;
             font-size: 60px;
         }
@@ -32,7 +32,7 @@
             width: 30%;
             margin: 10px;
 
-            @media only screen and (max-width: $cut) {
+            @media only screen and (max-width: $breakpoint-s) {
                 width: 100%;
             }
         }

@@ -15,7 +15,7 @@
     line-height: 1;
     color: #FFF;
 
-    @media only screen and (min-width:$cut){
+    @media only screen and (min-width:$breakpoint-s){
       margin: 0;
       font-size: 100px;
     }
@@ -28,7 +28,7 @@
     color: #FFF;
     margin-top: 10px;
 
-    @media only screen and (min-width:$cut){
+    @media only screen and (min-width:$breakpoint-s){
       font-size: 40px;
     }
   }
@@ -42,7 +42,7 @@
       font-size: 15px;
       margin: 10px;
 
-      @media only screen and (min-width:$cut){
+      @media only screen and (min-width:$breakpoint-s){
         font-size: 20px;
       }
     }
@@ -70,16 +70,16 @@
       }
 
       &:hover {
-        color: $main;
+        color: $primary;
         background: #FFF;
       }
 
       &:active {
-        color: $main;
+        color: $primary;
         background: #FFF;
       }
 
-      @media only screen and (min-width:$cut) {
+      @media only screen and (min-width:$breakpoint-s) {
         width: 35px;
         height: 35px;
         font-size: 35px;
@@ -105,20 +105,20 @@
     transform-style: preserve-3d;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     width: 100px;
     height: 100px;
     fill: #fff;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     -webkit-animation: pulse 1.3s infinite;
     animation: pulse 1.3s infinite;
 
     &:hover {
-      color: $sec;
+      color: $secondary;
     }
 
     &:active {
-      color: $sec;
+      color: $secondary;
     }
   }
 }

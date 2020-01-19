@@ -49,13 +49,13 @@
 
         a{
           text-decoration: none;
-          border: solid 2px $main;
+          border: solid 2px $primary;
           text-align: center;
-          color: $main;
+          color: $primary;
     
           padding: 6px 14px;
           border-radius: 25px;
-          // border: 2px solid $main;
+          // border: 2px solid $primary;
           transition: ease-out all .1s;
 
           &.fa-npm::before{
@@ -63,18 +63,18 @@
           }
 
           &:hover {
-            background: $main;
+            background: $primary;
             color: #ffffff;
             border: solid 2px #ffffff;
           }
 
           &:active {
-            background: $main;
+            background: $primary;
             color: #ffffff;
             border: solid 2px #ffffff;
           }
 
-          @media only screen and (min-width:$cut) {
+          @media only screen and (min-width:$breakpoint-s) {
           
           
           }
@@ -84,6 +84,6 @@
   }
 }
 
-// @media only screen and (max-width: $cut) {
+// @media only screen and (max-width: $breakpoint-s) {
 //  
 // }
