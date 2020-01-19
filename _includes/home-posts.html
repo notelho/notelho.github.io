@@ -1,29 +1,31 @@
-<!-- <section id="projects">
+<section id="posts">
 
-    <div class="user-details">
-        <h1> Featured Posts </h1>
+    <div class="posts__title">
+        <h1> Blog posts </h1>
     </div>
 
-    <div class="user-projects">
-        <div class="images-left">
-            <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
+    <div class="posts__about">
+
+        <div class="about__content">
+
+            <h3> Check out my posts </h3>
+
+            <p>
+                See a list of my github blog post.There's nothing special there,
+                just a few things to remember in your daily life, like installations,
+                links, code snippets, and others.
+            </p>
+
+            <div class="about__goto">
+                <a href="#"> I want to read boring things </a>
+            </div>
+
         </div>
-        <div class="contents-right">
-            <h3> Project Title </h3>
-            <ul>
-                <li> Featured Skills</li>
-            </ul>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo
-                consequat.</p>
-            <a class="project-link" href="#">Check it out</a>
+
+        <div class="about__tumb">
+            <img src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
         </div>
+
     </div>
 
-</section> -->
-
-<!-- {% for author in site.data.projects %}
-  <a href="{{ author.url }}">{{ author.name }}</a>
-  {% endfor %} -->
+</section>
