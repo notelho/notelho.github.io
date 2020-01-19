@@ -1,21 +1,18 @@
 .footer {
+  box-sizing: border-box;
   background: $primary;
-  padding: 10px 0;
-  margin-top: 100px;
-  text-align: center;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: #FFF;
-  .love {
-    color: red;
+  height: 76px;
+
+  a{
+    text-decoration: none !important;
+    color: white !important;
+    font-size: 2.4em;
+    display: inline-flex;
   }
-  a {
-    text-decoration: none;
-    margin: 0;
-    color: #FFF;
-    &:hover{
-      color: $secondary;
-    }
-    &:active {
-      color: $secondary;
-    }
-  }
+
 }
