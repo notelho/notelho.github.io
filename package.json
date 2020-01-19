@@ -2,9 +2,9 @@
   "name": "enbot.gitgub.io",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "dev": "gulp"
+    "start": "jekyll serve"
   },
   "author": "Nathan Botelho",
   "license": "MIT"
