@@ -1,0 +1,7 @@
+- ref: 01
+  name: Name Surname
+  url: http://something.com
+
+- ref: 02
+  name: Name Surname 2
+  url: http://somethingelse.com
