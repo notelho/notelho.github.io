@@ -1,22 +1,19 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
-# baseurl: "/"
-url: "https://enbot.github.io"
+# Site settings
+title: Minimal
+email: blog@minimal.com
+description: "Esse é um blog minimalista criado para aprender como funciona essa ferramenta linda que é o Jekyll."
+baseurl: "/minimal-blog"
+url: "http://willianjusten.com.br"
+twitter_username: minimal_twitter
+github_username:  minimal_github
 
-username: Nathan Botelho
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
-user_title: Software Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-
-# Google-analytics
-google-analytics:
-  id: ""
-
-exclude: ['package.json', 'src' , 'node_modules']
-
-
-# permalink: /:categories/:title
+# Build settings
+markdown: kramdown
+permalink: /:title/
