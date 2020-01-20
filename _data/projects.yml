@@ -1,7 +1,56 @@
-- ref: 01
-  name: Name Surname
-  url: http://something.com
+- id: 1
+  name: bar-chart
+  path: /codepen/bar-chart/
 
-- ref: 02
-  name: Name Surname 2
-  url: http://somethingelse.com
+- id: 2
+  name: bar-progress
+  path: /codepen/bar-progress/
+
+- id: 3
+  name: box-shadow-doggo
+  path: /codepen/box-shadow-doggo/
+
+- id: 4
+  name: box-shadow-jojo
+  path: /codepen/box-shadow-jojo/
+
+- id: 5
+  name: circle-tech
+  path: /codepen/circle-tech/
+
+- id: 6
+  name: circle-wind
+  path: /codepen/circle-wind/
+
+- id: 7
+  name: error-screen
+  path: /codepen/error-screen/
+
+- id: 8
+  name: moving-background
+  path: /codepen/moving-background/
+
+- id: 9
+  name: pokeball
+  path: /codepen/pokeball/
+
+- id: 10
+  name: radio-tower
+  path: /codepen/radio-tower/
+
+- id: 11
+  name: svg-moving-test
+  path: /codepen/svg-moving-test/
+
+- id: 12
+  name: text-loading
+  path: /codepen/text-loading/
+
+- id: 13
+  name: waves-music
+  path: /codepen/waves-music/
+
+- id: 14
+  name: waves-voice
+  path: /codepen/waves-voice/
+

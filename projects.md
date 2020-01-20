@@ -2,5 +2,5 @@
 layout: projects
 title: Projects
 permalink: /projects/
-description: Blog hosted projects page 
+description: Blog hosted projects page
 ---

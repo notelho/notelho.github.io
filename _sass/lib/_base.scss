@@ -1,44 +1,70 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-body {
+html,body {
     margin: 0;
     padding: 0;
     font-size: 100%;
     line-height: 1.5;
     color: #555;
     font-family: 'Montserrat', sans-serif;
+
+    &::-webkit-scrollbar {
+        width: 7px;
+        height: 7px;
+    }
+    &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px #eeeeee; 
+        border-radius: 6px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: #cccccc; 
+        border-radius: 6px;
+    }
+    &::-webkit-scrollbar-thumb:hover {
+        background: #bbbbbb; 
+    }
 }
+
 article, aside, figcaption, figure, footer, header, nav, section {
     display: block;
 }
+
 h1, h2, h3, h4, stong {
     margin-top: 1em;
     padding-top: 1em;
     line-height: 1.25;
     color: #333;
 }
+
 h1 {
     font-size: 2.5rem;
 }
+
 h2 {
     font-size: 2rem;
 }
+
 h3 {
     font-size: 1.5rem;
 }
+
 h4 {
     font-size: 1rem;
 }
+
 ul, ol {
     margin: 1em 0;
     padding-left: 40px;
 }
+
 p, figure {
     margin: 1em 0;
 }
+
 a img {
     border: none;
 }
+
 sup, sub {
     line-height: 0;
 }

@@ -5,9 +5,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript,Blog,Projects">
+  <meta name="author" content="{{site.username}}">
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <title> {% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %} </title>
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 </head>
 

@@ -1,5 +1,7 @@
 <div class="content post">
 
-    aassadads
+    {% for project in site.data.projects %}
+        <iframe src="{{ project.path | prepend: site.baseurl }}" name="{{project.name}}"></iframe>
+    {% endfor %}
 
 </div>
