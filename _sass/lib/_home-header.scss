@@ -114,11 +114,11 @@
     animation: pulse 1.3s infinite;
 
     &:hover {
-      color: $secondary;
+      color: lighten($secondary, 30%);
     }
 
     &:active {
-      color: $secondary;
+      color: lighten($secondary, 30%);
     }
   }
 }
