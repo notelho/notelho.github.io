@@ -3,7 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
   new SweetScroll({});
 
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-  particlesJS('particles-js', {
+
+  const particleJsOptions = {
     "particles": {
       "number": {
         "value": 30,
@@ -113,6 +114,9 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     },
     "retina_detect": true
-  });
+  }
 
-}, false);
+  particlesJS('header-js', particleJsOptions)
+  particlesJS('footer-js', particleJsOptions)
+
+}, false)

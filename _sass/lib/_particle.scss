@@ -1,23 +1,25 @@
-#particles-js {
+#header-js, #footer-js {
     @include bg-pattern;
-    display: flex;
-    vertical-align: bottom;
     width: 100%;
     position: relative; 
 
     &.home{
         min-height: 100vh;
-        .particles-js-canvas-el {
-            width:100% !important;
-            height:100vh !important;
-        }
+        height: 100vh;
     }
 
     &.page{
         min-height: 30vh;
-        .particles-js-canvas-el {
-            width:100% !important;
-            height:30vh !important;
-        }
+        height: 30vh;
+    }
+
+    &.footer{
+        min-height: 76px;
+        height: 76px;
+    }
+
+    .particles-js-canvas-el {
+        width:100% !important;
+        height:100% !important;
     }
 }
