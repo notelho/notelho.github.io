@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Nathan Botelho ● Software Developer
+title: Nathan's home
 description: ""
 ---

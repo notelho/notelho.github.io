@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Posts
+title: Nathan's posts
 permalink: /posts/
 description: Blog post listing page
 ---
