@@ -1,12 +1,9 @@
 #particles-js {
-    background: $primary;
+    @include bg-pattern;
     display: flex;
     vertical-align: bottom;
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
+    position: relative; 
 
     &.home{
         min-height: 100vh;
