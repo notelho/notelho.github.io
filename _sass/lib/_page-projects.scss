@@ -1,13 +1,16 @@
 .page__projects{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    justify-content: center;
     box-sizing: border-box;
     grid-gap: 10px;
     padding: 10px 10vw;
-    
+
     .project{
         position: relative;
         user-select: none;
+        width: 30vw;
 
         &:hover{
             .project__name{
@@ -37,11 +40,10 @@
         .project__sample{
             background-color: $primary;
             overflow: hidden;
-                border-radius: 10px;
+            border-radius: 10px;
             iframe{
-                 
                 width: 100%;
-                height: auto;
+                height: 20vw;
                 z-index: -1;
                 border: none;
                 outline: 0;
@@ -71,7 +73,8 @@
                 width: 30px;
                 height: 30px;
                 padding: 15px;
-                border: solid 2px #ffffff;
+                border: solid 1px #ffffff;
+                border-radius: 4px;
                 background-color: $primary;
             }
         }
