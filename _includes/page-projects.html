@@ -1,21 +1,34 @@
 <section class="page__projects">
 
-    {% for project in site.data.projects %}
+    <p class="page__description">
+        Esses são alguns dos meus projetos e/ou minhas ideias. <br>
+        Conforme meus repositóros vão crescendo, vou vou atualizando essa lista com novas links. <br>
 
-    <div class="project">
+        <br> <span class="desktop-only"> *Passe o mouse sobre um projeto para visualizar o nome </span>
+        <br> <span class="desktop-only"> *Clique em um projeto para ve-lo em tela cheia </span>
 
-        <h4 class="project__name"> {{project.name}} </h4>
+    </p c>
 
-        <div class="project__sample">
-            <iframe src="{{ project.path | prepend: site.baseurl }}" name="{{project.name}}"></iframe>
+    <div class="list__projects">
+
+        {% for project in site.data.projects %}
+
+        <div class="project">
+
+            <h4 class="project__name"> {{project.name}} </h4>
+
+            <div class="project__sample">
+                <iframe src="{{ project.path | prepend: site.baseurl }}" name="{{project.name}}"></iframe>
+            </div>
+
+            <a class="project__redirect" href="{{ project.path | prepend: site.baseurl }}">
+                <i class="fas fa-arrow-right"></i>
+            </a>
+
         </div>
 
-        <a class="project__redirect" href="{{ project.path | prepend: site.baseurl }}">
-            <i class="fas fa-arrow-right"></i>
-        </a>
+        {% endfor %}
 
     </div>
-
-    {% endfor %}
 
 </section>
