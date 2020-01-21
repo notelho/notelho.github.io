@@ -3,11 +3,25 @@
 
 <head>
   <meta charset="utf-8">
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{site.title}}" />
+  <meta property="og:description" content="{{site.user_description}}" />
+  <meta property="og:url" content="{{site.url}}{{page.url}}" />
+  <meta property="og:image" content="{{site.url}}/assets/img/39466625.png">
+  <meta property="og:image:secure_url" content="{{site.url}}/assets/img/39466625.png">
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="400" />
+  <meta property="og:image:height" content="400" />
+  <meta property="og:site_name" content="connectmix" />
+  <meta property="og:locale" content="pt_BR" />
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content="HTML,CSS,XML,JavaScript,Blog,Projects">
   <meta name="author" content="{{site.username}}">
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
   <title> {% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %} </title>
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 </head>

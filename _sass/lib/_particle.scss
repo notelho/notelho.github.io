@@ -11,6 +11,10 @@
     &.page{
         min-height: 30vh;
         height: 30vh;
+        @media (max-width: $breakpoint-xs){
+            min-height: 20vh;
+            height: 20vh;
+        }
     }
 
     &.footer{

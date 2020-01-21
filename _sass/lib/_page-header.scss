@@ -24,6 +24,9 @@
 
             i{
                 font-size: 50px;
+                @media (max-width: $breakpoint-xs){
+                    font-size: 40px;
+                }
                 &:hover{
                     color: #eeeeee;
                     cursor: pointer;
@@ -40,12 +43,19 @@
 
             h1{
                 color: #ffffff;
+                @media (max-width: $breakpoint-xs){
+                    font-size: 2em;
+                    padding-right: 25px;
+                }
             }
 
             p{
                 color: #ffffff;
                 font-weight: 300;
                 font-size: 1.2em;
+                @media (max-width: $breakpoint-xs){
+                    display: none;
+                }
             }
         }
     }
