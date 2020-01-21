@@ -1,14 +1,14 @@
 - id: 1
-  name: bar-chart
-  path: /codepen/bar-chart/
+  name: box-shadow-doggo
+  path: /codepen/box-shadow-doggo/
 
 - id: 2
   name: bar-progress
   path: /codepen/bar-progress/
 
 - id: 3
-  name: box-shadow-doggo
-  path: /codepen/box-shadow-doggo/
+  name: bar-chart
+  path: /codepen/bar-chart/
 
 - id: 4
   name: box-shadow-jojo

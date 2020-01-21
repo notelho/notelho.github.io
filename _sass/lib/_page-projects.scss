@@ -4,28 +4,28 @@
     .page__description {
         position: absolute;
         top: 0;
-        left: 0;
+        left: calc(5vw - 10px);
+        margin: 10px auto;
         z-index: 4;
 
-        
-        h5, span{
-            background-color: #ffffff;
-            margin: 3px 0;
+        h4, span{
             padding: 5px 10px;
-        }
-        h5{
-            margin-bottom: -15px;
+            background-color: $primary;
+            color: #ffffff;
+
+            &.desktop-only{
+                font-size: .7rem;
+            }
         }
 
-        // h3{
-        //     margin-bottom: -15px;
-        // }
+        h4{
+            margin-bottom: -15px;
+        }
     }
 
     .list__projects{
-        width: 100%;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 30vw 30vw 30vw;
         grid-template-rows: repeat(20vw, 8);
         grid-template-areas:
             'a1  a1  a2'
@@ -39,6 +39,8 @@
         align-content: center;
         justify-content: center;
         box-sizing: border-box;
+        grid-gap: 10px;
+        padding: 10px 10vw;
 
         .project{
             position: relative;
@@ -60,10 +62,8 @@
                 .project__redirect{
                     opacity: 1;
                 }
-                .project__sample{
-                    iframe{
-                        transform: scale(1.1);
-                    }
+                .project__sample iframe{
+                    transform: scale(1.1);
                 }
             }
 
@@ -80,7 +80,7 @@
                 margin: 0;
                 opacity: 0;
                 transform: translateX(-70px);
-                z-index: 1;
+                z-index: 3;
             }
 
             .project__sample{
@@ -88,9 +88,7 @@
                 height: 100%;
                 background-color: $primary;
                 overflow: hidden;
-                transform-origin: center center;
-                z-index: 0;
-
+                border-radius: 10px;
                 &, & > * {
                     padding: 0;
                     margin: 0;
@@ -128,7 +126,7 @@
                     height: 30px;
                     padding: 15px;
                     border: solid 1px #ffffff;
-                    
+                    border-radius: 4px;
                     background-color: $primary;
                 }
             }
