@@ -4,9 +4,9 @@
     .page__description {
         position: absolute;
         top: 0;
-        left: calc(5vw - 10px);
-        margin: 10px auto;
+        left: 0;
         z-index: 4;
+        box-sizing: border-box;
         h2, span{
             padding: 6px 15px;
             background-color: $primary;
@@ -17,7 +17,7 @@
         }
         h2{
             border-top-left-radius: 7px;
-            margin-top: 7px;
+            margin-top: 0;
             margin-bottom: -40px;
         }
     }
