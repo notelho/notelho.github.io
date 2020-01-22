@@ -16,7 +16,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{site.title}}" />
   <meta property="og:site_name" content="{{site.title}}" />
-  <meta property="og:description" content="{{site.user_description}}" />
+  <meta property="og:description" content="{{site.user_description | strip_html | strip_newlines | truncate: 160 }}" />
   <meta property="og:url" content="{{site.url}}" />
   <meta property="og:image" content="{{site.url}}/assets/img/39466625.png">
   <meta property="og:image:secure_url" content="{{site.url}}/assets/img/39466625.png">
