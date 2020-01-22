@@ -117,6 +117,5 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   particlesJS('header-js', particleJsOptions)
-  particlesJS('footer-js', particleJsOptions)
 
 }, false)
