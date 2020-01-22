@@ -1,7 +1,10 @@
 
+- corrigir os links para absolutos 
+- repensar o nome 'home' para os botões
 
 - pagina list posts
 - pagina view post
+
 - pagina 404
 - pagina de padrões e gradientes- pagina de SVGS
 - transformar page-header em nav normal
