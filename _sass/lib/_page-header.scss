@@ -2,60 +2,46 @@
     position: relative;
 
     .header__page{
-        padding-left: 20px;
+        background-color: rgba(white, 0.2);
+        padding: 0 20px;
         position: absolute;
+        box-sizing: border-box;
         top: 0;
         left: 0;
         display: flex;
+        justify-content: flex-end;
         align-items: center;
         height: 100%;
+        width: 100%;
 
-        &, & >* {
-            box-sizing: border-box;
-        }
-
-        .header__back{
+        a{
+            margin: 0 10px;
+            padding: 10px;
+            width: 21px;
+            height: 21px;
+            outline: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: 2px solid #ffffff;
             color: #ffffff;
-            margin-right: 20px;
-
-            &, & > * {
-                outline: 0;
-            }
+            text-decoration: none !important;
 
             i{
-                font-size: 50px;
-                @media (max-width: $breakpoint-xs){
-                    font-size: 40px;
-                }
-                &:hover{
-                    color: #eeeeee;
-                    cursor: pointer;
-                }
-            }
-        }
-
-        .header__text{
-            
-            & > * {
-                padding: 0;
-                margin: 0;
+                text-align: center;
+                font-size: 22px;
+                transition: ease-out all .1s;
             }
 
-            h1{
-                color: #ffffff;
-                @media (max-width: $breakpoint-xs){
-                    font-size: 2em;
-                    padding-right: 25px;
-                }
+            &:hover {
+                color: $primary;
+                background: #FFF;
             }
 
-            p{
-                color: #ffffff;
-                font-weight: 300;
-                font-size: 1.2em;
-                @media (max-width: $breakpoint-xs){
-                    display: none;
-                }
+            &:active {
+                color: $primary;
+                background: #FFF;
             }
         }
     }
