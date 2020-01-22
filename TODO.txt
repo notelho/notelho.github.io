@@ -1,0 +1,7 @@
+
+
+- pagina list posts
+- pagina view post
+- pagina 404
+- pagina de padrões e gradientes- pagina de SVGS
+- transformar page-header em nav normal

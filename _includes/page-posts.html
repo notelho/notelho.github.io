@@ -1,24 +1,41 @@
-<div class="content list">
+<section class="page__posts">
 
-    {% if site.posts.size == 0 %}
-    <h2>No post found</h2>
-    {% else %}
+    <div class="page__description">
+        <h2> These are some of my projects/ideas. </h2>
+        <p>
+            As my repositories grow, I will update the list with new links.
+        </p>
+    </div>
 
-    {% for post in site.posts %}
-    <div class="list-item">
+    <div class="list__posts">
 
-        <h2 class="list-post-title">
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </h2>
+        {% for post in site.posts %}
 
-        <div class="list-post-date">
-            <time>{{ post.date | date_to_string }}</time>
+        <div class="post">
+
+            <img class="post__thumb" src="" alt="">
+
+            <div class="post__content">
+
+                <h2>{{ post.title }} </h2>
+
+                <time> {{ post.date | date_to_string }} </time>
+
+                <p>
+                    post resume
+                </p>
+
+                <div class="post__actions">
+                    <a href="{{ site.baseurl }}{{ post.url }}"> ir </a>
+                    <!-- <i class="fas fa-arrow-right"></i> -->
+                </div>
+
+            </div>
+
         </div>
+
+        {% endfor %}
 
     </div>
 
-    {% endfor %}
-
-    {% endif %}
-
-</div>
+</section>
