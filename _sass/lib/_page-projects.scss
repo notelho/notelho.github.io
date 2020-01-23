@@ -2,40 +2,18 @@
     position: relative;
 
     .page__description {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 4;
         box-sizing: border-box;
-        h2, span{
-            padding: 6px 15px;
-            background-color: $primary;
-            color: #ffffff;
-            &.small{
-                font-size: .7rem;
-            }
-            &.desktop-only{
-                @media (max-width: $breakpoint-m){
-                    display: none;
-                }
-            }
-            @media (max-width: $breakpoint-m){
-                background-color: transparent;
-                color: $primary;
-            }
-        }
+        padding: 0 4vw;
+
         h2{
-            border-top-left-radius: 7px;
-            margin-top: 0;
-            margin-bottom: -40px;
-            @media (max-width: $breakpoint-s){
-                padding-top: 15px;
-                font-size: 1.6rem;
+            @media (min-width: $breakpoint-m){
+                margin-bottom: 0;
             }
         }
-        span{
-            @media (max-width: $breakpoint-s){
-                font-size: .9rem;
+        p{
+            text-align: center;
+            @media (max-width: $breakpoint-m){
+                display: none;
             }
         }
     }
@@ -71,12 +49,6 @@
             user-select: none;
             width: 100%;
             height: 100%;
-
-            &:nth-child(1){
-                @media (max-width: $breakpoint-m){
-                    padding-top: 110px;
-                }
-            }
 
             @media (max-width: $breakpoint-m){
                 height: 80vw;

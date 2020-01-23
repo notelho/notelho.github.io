@@ -1,21 +1,19 @@
 <section class="page__projects">
 
+    <div class="page__description">
+        <h2> These are some of my projects/ideas. </h2>
+        <p class="desktop-only">
+            <br> <span> As my repositories grow, I will update the list with new links. </span>
+            <br> <span class="small"> *Hover a project to view the name </span>
+            <br> <span class="small"> *Click on a project to see it in full screen </span>
+        </p>
+    </div>
+
     <div class="list__projects">
 
         {% for project in site.data.projects %}
 
         <div class="project">
-
-            {% if project.id == 1 %}
-            <div class="page__description">
-                <h2> These are some of my projects/ideas. </h2>
-                <p>
-                    <br> <span class="desktop-only"> As my repositories grow, I will update the list with new links. </span>
-                    <br> <span class="desktop-only small"> *Hover a project to view the name </span>
-                    <br> <span class="desktop-only small"> *Click on a project to see it in full screen </span>
-                </p>
-            </div>
-            {% endif %}
 
             <h4 class="project__name"> {{project.name}} </h4>
 
