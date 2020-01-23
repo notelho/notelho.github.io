@@ -6,3 +6,5 @@
 - transformar page-header em nav normal 
 
 - testes 404
+
+- imagens home-posts e home-projects
