@@ -1,7 +1,4 @@
 
-- corrigir os links para absolutos 
-
-
 - pagina list posts
 - pagina view post
 
