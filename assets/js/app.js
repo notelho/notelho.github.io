@@ -118,4 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   particlesJS('header-js', particleJsOptions)
 
+  if (document.getElementById('alt-js'))
+    particlesJS('alt-js', particleJsOptions)
+
 }, false)
