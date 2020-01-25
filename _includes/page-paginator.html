@@ -1,0 +1,43 @@
+<div class="paginator">
+
+    <div class="paginator__wrapper">
+
+        {% if paginator.previous_page %}
+
+        <a href="/articles/" class="paginator__button">
+            <i class="fas fa-angle-double-left"></i>
+        </a>
+
+        <a href="{{ paginator.previous_page_path }}" class="paginator__button">
+            <i class="fas fa-angle-left"></i>
+        </a>
+
+        {% else %}
+
+        <div class="paginator__mock"></div>
+        <div class="paginator__mock"></div>
+
+        {% endif %}
+
+        <span class="paginator__info"> page {{paginator.page}} of {{paginator.total_pages}} </span>
+
+        {% if paginator.next_page %}
+
+        <a href="{{ paginator.next_page_path }}" class="paginator__button">
+            <i class="fas fa-angle-right"></i>
+        </a>
+
+        <a href="/articles/{{paginator.total_pages}}/" class="paginator__button">
+            <i class="fas fa-angle-double-right"></i>
+        </a>
+
+        {% else %}
+
+        <div class="paginator__mock"></div>
+        <div class="paginator__mock"></div>
+
+        {% endif %}
+
+    </div>
+
+</div>

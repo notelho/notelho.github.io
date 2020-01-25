@@ -1,47 +1,33 @@
 <section class="page__posts">
 
     <div class="page__description">
-        <h2> These are some of my projects/ideas. </h2>
-        <p> As my repositories grow, I will update the list with new links. </p>
+        <h2> These are some of my posts/articles. </h2>
+        <p>
+            Once you understand that the posts are not a big deal, <br>
+            check the articles list below:
+        </p>
     </div>
 
     <div class="list__posts">
-
-        {% for post in site.posts %}
+        {% for post in paginator.posts %}
 
         <div class="post">
-
             <img class="post__thumb" src="/assets/thumbs/{{post.thumb}}" alt="">
-
             <div class="post__content">
-
                 <div class="content__wrapper">
-
                     <h3> {{ post.title }} </h3>
-
                     <time> {{ post.date | date_to_string }} </time>
-
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mi nibh, sodales at ante a,
-                        pharetra euismod risus. Aenean vitae imperdiet est, ac posuere ex. pharetra euismod risus.
-                        Aenean vitae imperdiet est, ac posuere ex. pharetra euismod risus. Aenean vitae imperdiet est,
-                        ac posuere ex.
-                    </p>
-
+                    <p> {{post.content | strip_html | strip_newlines | truncate: 230 }} </p>
                     <div>
                         <a href="{{ site.baseurl }}{{ post.url }}">
                             <i class="fas fa-angle-double-right"></i>
                         </a>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
 
         {% endfor %}
-
     </div>
 
 </section>

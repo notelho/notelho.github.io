@@ -1,12 +1,14 @@
 
-- pagina list posts
+- pagina list posts responsivo 
 - pagina view post
 
 - pagina de padrões e gradientes- pagina de SVGS
-- transformar page-header em nav normal 
+- pagina de cursos e certificações
 
 - testes 404
 
-- imagens home-posts e home-projects7
+- imagens home-articles e home-projects7
 
 - favico
+
+ 
