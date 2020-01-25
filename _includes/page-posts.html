@@ -11,21 +11,31 @@
 
         <div class="post">
 
-            <img class="post__thumb" src="" alt="">
+            <img class="post__thumb" src="/assets/thumbs/{{post.thumb}}" alt="">
 
             <div class="post__content">
 
-                <h2>{{ post.title }} </h2>
+                <div class="content__wrapper">
 
-                <time> {{ post.date | date_to_string }} </time>
+                    <h3> {{ post.title }} </h3>
 
-                <p>
-                    post resume
-                </p>
+                    <time> {{ post.date | date_to_string }} </time>
 
-                <div class="post__actions">
-                    <a href="{{ site.baseurl }}{{ post.url }}"> ir </a>
-                    <!-- <i class="fas fa-arrow-right"></i> -->
+                    <p>
+                        <!-- post resume -->
+
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mi nibh, sodales at ante a,
+                        pharetra euismod risus. Aenean vitae imperdiet est, ac posuere ex. pharetra euismod risus.
+                        Aenean vitae imperdiet est, ac posuere ex. pharetra euismod risus. Aenean vitae imperdiet est,
+                        ac posuere ex.
+                    </p>
+
+                    <div>
+                        <a href="{{ site.baseurl }}{{ post.url }}"> ir </a>
+                        <!-- <i class="fas fa-arrow-right"></i> -->
+                    </div>
+
                 </div>
 
             </div>
