@@ -65,20 +65,26 @@
             &:hover{
                 .project__name{
                     opacity: 1;
-                    transform: translateX(0);
+                    -webkit-transform: translateX(0);
+                        -ms-transform: translateX(0);
+                            transform: translateX(0);
                 }
                 .project__redirect{
                     opacity: 1;
                 }
                 .project__sample iframe{
-                    transform: scale(1.1);
+                    -webkit-transform: scale(1.1);
+                        -ms-transform: scale(1.1);
+                            transform: scale(1.1);
                 }
             }
             & * {
                 transition: ease-out all 300ms;
             }
             .project__name{
-                transform: translateX(-70px);
+                -webkit-transform: translateX(-70px);
+                    -ms-transform: translateX(-70px);
+                        transform: translateX(-70px);
                 background-color: #ffffff;
                 position: absolute;
                 bottom: 0;
