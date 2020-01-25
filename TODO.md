@@ -3,7 +3,7 @@
 
 - pagina view post
 - testes 404
-- imagens home-articles e home-projects7
+- webkit filter projects hover
 
 - soon:
     - page: patterns and gradients
