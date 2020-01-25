@@ -61,7 +61,7 @@ $postoffset: 40px;
                     position: relative;
 
                     & > * {
-                        padding: 0 3%;
+                        padding: 0 5%;
                         margin: 0;
                         box-sizing: border-box;
                     }
@@ -77,7 +77,7 @@ $postoffset: 40px;
                     }
 
                     p{
-                        padding: 3% !important;
+                        padding: 3% 5% !important;
                         height: 50%;
                         overflow: hidden;
                         text-overflow: ellipsis;    
@@ -95,12 +95,24 @@ $postoffset: 40px;
                         display: flex;
                         align-items: center;
                         justify-content: flex-end;
-                        // background-color: purple;
+
                         a{
-    
-                        }
-                        i{
-                            
+                            width: 30%;
+                            box-sizing: border-box;
+                            outline: 0 !important;
+                            text-decoration: none !important;
+                            border-radius: 35px;
+                            text-align: center;
+                            background-color: $primary;
+                            color: #ffffff;
+                            border: solid 2px  $primary;
+                            i{
+                             
+                            }
+                            &:hover{
+                                background-color: #ffffff;
+                                color: $primary;
+                            }
                         }
                     }
 
