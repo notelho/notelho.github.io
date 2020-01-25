@@ -7,4 +7,6 @@
 
 - testes 404
 
-- imagens home-posts e home-projects
+- imagens home-posts e home-projects7
+
+- favico

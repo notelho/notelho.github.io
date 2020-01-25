@@ -21,7 +21,6 @@ $postoffset: 40px;
     }
     
     .list__posts{
-        // background-color: yellow;
         justify-content: center;
         display: grid;
         grid-template-columns: repeat(3, $postsize);
@@ -30,7 +29,6 @@ $postoffset: 40px;
         padding: 10px 10px 0 10px;
 
         .post{
-            // background-color: pink;
             position: relative;
             display: flex;
             align-items: center;
@@ -50,7 +48,7 @@ $postoffset: 40px;
                 height: $postsize;
                 background-color: white;
                 border-radius: 5px;
-                box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+                box-shadow: 0px 0px 50px -30px rgba(0, 0, 0, 0.75);
                 width: calc(100% - 3% - 8%);
 
                 .content__wrapper{
@@ -106,18 +104,13 @@ $postoffset: 40px;
                             background-color: $primary;
                             color: #ffffff;
                             border: solid 2px  $primary;
-                            i{
-                             
-                            }
                             &:hover{
                                 background-color: #ffffff;
                                 color: $primary;
                             }
                         }
                     }
-
                 }
-
             }
         }
     }

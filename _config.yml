@@ -6,6 +6,8 @@ baseurl: ""
 
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
+paginate_path: /articles/:num/
+paginate: 6
 
 username: Nathan Botelho
 user_title: Software Developer
@@ -17,3 +19,6 @@ user_codepen:  https://codepen.io/NathanBotelho
 user_linkedin: https://www.linkedin.com/in/nathanbotelho/
 
 exclude: ['LICENSE', 'package.json', 'src', 'node_modules']
+
+plugins:
+  - jekyll-paginate
