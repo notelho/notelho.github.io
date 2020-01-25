@@ -5,9 +5,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
 
     .notfound__wrapper{
-        margin-top: -180px;
+        margin-top: -18vh;
         box-sizing: border-box;
         position: relative;
         width: calc(1610px * 0.5);

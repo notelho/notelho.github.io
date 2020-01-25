@@ -2,7 +2,6 @@
 ---
 
 - pagina view post
-- testes 404
 
 - soon:
     - page: patterns and gradients
