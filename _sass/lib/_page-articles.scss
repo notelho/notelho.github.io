@@ -34,6 +34,10 @@ $pagegap: 10px;
         }
 
         @media (max-width: ($postsize * 2) + ($pagegap * 3) - 1px ){
+            grid-template-columns: repeat(1, $postsize);
+        }
+
+        @media (max-width: 400px ){
             grid-template-columns: repeat(1, 100%);
         }
 
@@ -60,7 +64,7 @@ $pagegap: 10px;
                 box-shadow: 0px 0px 50px -30px rgba(0, 0, 0, 0.75);
                 width: calc(100% - 3% - 8%);
 
-                @media (max-width: ($postsize * 2) + ($pagegap * 3) - 1px ){
+                @media (max-width: 400px ){
                     width: calc(94%);
                     right: 3%;
                 }
