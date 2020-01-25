@@ -18,7 +18,7 @@ user_github: https://github.com/notelho
 user_codepen:  https://codepen.io/NathanBotelho
 user_linkedin: https://www.linkedin.com/in/nathanbotelho/
 
-exclude: ['LICENSE', 'package.json', 'src', 'node_modules']
+exclude: ['LICENSE', 'TODO.md', 'package.json', 'src', 'node_modules']
 
 plugins:
   - jekyll-paginate
