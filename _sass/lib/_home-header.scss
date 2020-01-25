@@ -1,7 +1,7 @@
 .header__home {
   z-index: 1;
   text-align: center;
-  color:#FFF;
+  color:#ffffff;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -13,7 +13,7 @@
     font-size: 50px;
     display: block;
     line-height: 1;
-    color: #FFF;
+    color: #ffffff;
 
     @media only screen and (min-width:$breakpoint-s){
       margin: 0;
@@ -25,7 +25,7 @@
     font-size: 20px;
     display: block;
     line-height: 1;
-    color: #FFF;
+    color: #ffffff;
     margin-top: 10px;
 
     @media only screen and (min-width:$breakpoint-s){
@@ -37,7 +37,7 @@
     margin: 10px;
 
     a {
-      color: #FFF;
+      color: #ffffff;
       text-decoration: none;
       font-size: 15px;
       margin: 10px;
@@ -55,14 +55,14 @@
 
     i {
       text-align: center;
-      color: #FFF;
+      color: #ffffff;
       width: 20px;
       height: 20px;
       font-size: 20px;
       padding: 10px;
       margin: 5px;
       border-radius: 50%;
-      border: 2px solid #FFF;
+      border: 2px solid #ffffff;
       transition: ease-out all .1s;
 
       &.fa-npm::before{
@@ -71,12 +71,12 @@
 
       &:hover {
         color: $primary;
-        background: #FFF;
+        background: #ffffff;
       }
 
       &:active {
         color: $primary;
-        background: #FFF;
+        background: #ffffff;
       }
 
       @media only screen and (min-width:$breakpoint-s) {
@@ -89,7 +89,7 @@
 }
 
 .home__down {
-  color: #FFF;
+  color: lighten($secondary, 20%);
   position: absolute;
   bottom: 25px;
   width: 100%;
@@ -106,19 +106,15 @@
     top: 50%;
     left: 50%;
     width: 100px;
-    height: 100px;
-    fill: #fff;
+    // height: 100px;
+    fill: #ffffff;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     -webkit-animation: pulse 1.3s infinite;
     animation: pulse 1.3s infinite;
 
     &:hover {
-      color: lighten($secondary, 30%);
-    }
-
-    &:active {
-      color: lighten($secondary, 30%);
+      color: lighten($secondary, 15%);
     }
   }
 }
