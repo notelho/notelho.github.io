@@ -11,12 +11,20 @@
         justify-content: flex-end;
         align-items: center;
 
+        @media (max-width: ($postsize * 3) + ($pagegap * 3) - 1px ){
+            width: calc(350px * 2 + 20px);
+        }
+
+        @media (max-width: ($postsize * 2) + ($pagegap * 3) - 1px ){
+            width: 100%;
+            justify-content: center;
+        }
+
         .paginator__button{
             text-decoration: none !important;
             outline: 0 !important;
             background-color: $primary;
             color: #ffffff;
-            border: solid 2px $primary;
             width: 25px;
             height: 25px;
             display: flex;
@@ -24,9 +32,12 @@
             align-items: center;
             border-radius: 50%;
             margin: 0 5px;
-            i{
-                margin-bottom: -2px;
+
+            @media (max-width: ($postsize * 2) + ($pagegap * 3) - 1px ){
+                width: 30px;
+                height: 30px;
             }
+
             &:hover{
                 background-color: #ffffff;
                 color: $primary;
@@ -35,6 +46,10 @@
 
         .paginator__info{
             margin: 0 6px;
+
+            @media (max-width: ($postsize * 2) + ($pagegap * 3) - 1px ){
+                margin: 0 8px;
+            }
         }
 
         .paginator__mock{
@@ -43,6 +58,11 @@
             width: 25px;
             height: 25px;
             border-radius: 50%;
+
+            @media (max-width: ($postsize * 2) + ($pagegap * 3) - 1px ){
+                width: 30px;
+                height: 30px;
+            }
         }
     }
 }

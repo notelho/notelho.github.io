@@ -1,5 +1,6 @@
 $postsize: 350px;
 $postoffset: 40px;
+$pagegap: 10px;
 
 .page__posts{
 
@@ -19,14 +20,22 @@ $postoffset: 40px;
             }
         }
     }
-    
+
     .list__posts{
         justify-content: center;
         display: grid;
         grid-template-columns: repeat(3, $postsize);
-        grid-gap: 10px;
+        grid-gap: $pagegap;
         box-sizing: border-box;
-        padding: 10px 10px 0 10px;
+        padding: $pagegap $pagegap 0 $pagegap;
+
+        @media (max-width: ($postsize * 3) + ($pagegap * 3) - 1px ){
+            grid-template-columns: repeat(2, $postsize);
+        }
+
+        @media (max-width: ($postsize * 2) + ($pagegap * 3) - 1px ){
+            grid-template-columns: repeat(1, $postsize);
+        }
 
         .post{
             position: relative;
