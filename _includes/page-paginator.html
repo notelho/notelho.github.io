@@ -4,11 +4,11 @@
 
         {% if paginator.previous_page %}
 
-        <a href="/articles/" class="paginator__button">
+        <a onclick="navigatePostPage('/articles/')" class="paginator__button">
             <i class="fas fa-angle-double-left"></i>
         </a>
 
-        <a href="{{ paginator.previous_page_path }}" class="paginator__button">
+        <a onclick="navigatePostPage('{{paginator.previous_page_path}}')" class="paginator__button">
             <i class="fas fa-angle-left"></i>
         </a>
 
@@ -23,11 +23,11 @@
 
         {% if paginator.next_page %}
 
-        <a href="{{ paginator.next_page_path }}" class="paginator__button">
+        <a onclick="navigatePostPage('{{paginator.next_page_path}}')" class="paginator__button">
             <i class="fas fa-angle-right"></i>
         </a>
 
-        <a href="/articles/{{paginator.total_pages}}/" class="paginator__button">
+        <a onclick="navigatePostPage('/articles/{{paginator.total_pages}}/')" class="paginator__button">
             <i class="fas fa-angle-double-right"></i>
         </a>
 

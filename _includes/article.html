@@ -1,6 +1,15 @@
-{% include minutes-to-read.html %}
+<aside class="article__back">
+
+    <h4 onclick="lastPostPage()">
+        <i class="fas fa-arrow-alt-circle-left"></i>
+        <span> Back to articles list </span>
+    </h4>
+
+</aside>
 
 <article class="article">
+
+    {% include minutes-to-read.html %}
 
     <h1 class="article__title">{{ page.title }}</h1>
 

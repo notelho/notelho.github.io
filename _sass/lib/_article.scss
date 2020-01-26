@@ -1,4 +1,4 @@
-.article{
+.article, .article__back{
     margin: 0 250px;
 
     &, & > * {
@@ -16,6 +16,9 @@
     @media (max-width: $breakpoint-xs) {
         margin: 0 10px;
     }
+}
+
+.article{
 
     .article__title{
         margin: 20px 0 0 0;
@@ -55,6 +58,21 @@
 
         img{
             max-width: 100%;
+        }
+    }
+}
+
+.article__back{
+    margin-top: 30px;
+
+    h4{
+        display: inline;
+        color: #aaaaaa;
+        font-weight: 400;
+
+        &:hover{
+            cursor: pointer;
+            color: #999999;
         }
     }
 }
