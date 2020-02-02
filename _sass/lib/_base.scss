@@ -22,7 +22,7 @@ html, body {
         border-radius: 6px;
     }
     &::-webkit-scrollbar-thumb:hover {
-        background: $secondary; 
+        background: lighten($primary, 5%); 
     }
 }
 

@@ -92,7 +92,7 @@
 }
 
 .home__down {
-  color: lighten($secondary, 20%);
+  color: lighten($primary, 20%);
   position: absolute;
   bottom: 25px;
   width: 100%;
@@ -118,7 +118,7 @@
     animation: pulse 1.3s infinite;
 
     &:hover {
-      color: lighten($secondary, 15%);
+      color: lighten($primary, 15%);
     }
   }
 }
