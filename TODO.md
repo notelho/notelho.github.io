@@ -8,6 +8,8 @@
     - box shadow refactoring
     - animated backgrounds project
     - home header -> "footer"
+    - id pattern
+    - projects restructuring
 
 
 - soon:
