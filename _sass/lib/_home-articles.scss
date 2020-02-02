@@ -43,6 +43,7 @@
         overflow: hidden;
         height: auto;
         z-index: -1;
+        box-shadow: 0px 0px 50px -30px rgba(0, 0, 0, 0.75);
 
         @media only screen and (max-width: $breakpoint-m) {
           width: 320px;

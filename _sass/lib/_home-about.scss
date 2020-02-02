@@ -10,6 +10,7 @@
     .about__details {
         text-align: center;
         margin: 5px auto;
+        margin-bottom: 2em;
     }
 
     .about__user {
@@ -29,8 +30,14 @@
         }
 
         .about__column {
+            box-shadow: 0px 0px 50px -30px rgba(0, 0, 0, 0.75);
+            background-color: #ffffff;
             width: 30%;
-            margin: 10px;
+            padding: 10px;
+
+            h2{
+                margin-top: 0;
+            }
 
             @media only screen and (max-width: $breakpoint-s) {
                 width: 100%;
