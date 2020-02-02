@@ -2,7 +2,12 @@
     - flame background images home: projects/articles
     - update colors
     - recent articles (4)
-    - page: view project
+    - page: view projects
+    - page: github projects
+    - projects -> codepen/gitgub
+    - box shadow refactoring
+    - animated backgrounds project
+    - home header -> "footer"
 
 
 - soon:
