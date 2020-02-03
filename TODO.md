@@ -1,15 +1,19 @@
 - next: 
+
     - flame background images home: projects/articles
-    - update colors
+    - animated backgrounds project
+
     - recent articles (4)
+
+    - projects restructuring
     - page: view projects
     - page: github projects
     - projects -> codepen/gitgub
-    - box shadow refactoring
-    - animated backgrounds project
+    - add box-shadow to projects/codepen
+
     - home header -> "footer"
+
     - id pattern
-    - projects restructuring
 
 
 - soon:
