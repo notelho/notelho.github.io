@@ -1,13 +1,13 @@
-<section id="header-home">
+<header id="header-home">
 
-  <header class="header__home">
+  <div class="header__home">
 
     <h1>
       <span class="header__title"> {{site.username}} </span>
       <span class="header__description"> {{site.user_title}} </span>
     </h1>
 
-    <div class="header__icons">
+    <nav class="header__icons">
 
       <a aria-label="Send email" href="mailto:{{site.email}}">
         <i class="fa fa-envelope"></i>
@@ -29,7 +29,7 @@
         <i class="fab fa-linkedin-in"> </i>
       </a>
 
-    </div>
+    </nav>
 
     <div class="header__links">
       <a href="#about" data-scroll> About Me </a>
@@ -37,10 +37,10 @@
       <a href="#articles" data-scroll> Blog </a>
     </div>
 
-  </header>
+  </div>
 
   <a class="home__down" href="#about" data-scroll>
     <i class="fa fa-chevron-down" aria-hidden="true"></i>
   </a>
 
-</section>
+</header>

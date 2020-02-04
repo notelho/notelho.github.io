@@ -1,25 +1,29 @@
-<aside class="article__back">
+<section id="content-article">
 
-    <h4 onclick="lastPostPage()">
-        <i class="fas fa-arrow-alt-circle-left"></i>
-        <span> Back to articles list </span>
-    </h4>
+    <aside class="article__back">
 
-</aside>
+        <h4 onclick="lastPostPage()">
+            <i class="fas fa-arrow-alt-circle-left"></i>
+            <span> Back to articles list </span>
+        </h4>
 
-<article class="article">
+    </aside>
 
-    {% include assign-readingtime.html %}
+    <article class="article">
 
-    <h1 class="article__title">{{ page.title }}</h1>
+        {% include assign-readingtime.html %}
 
-    <em class="article__description">
-        <time>{{ page.date | date_to_string }}</time>
-        <span class="reading-time" title="Estimated read time"> - {{ readingtime }} </span>
-    </em>
+        <h1 class="article__title">{{ page.title }}</h1>
 
-    <div class="article__content">
-        {{ content }}
-    </div>
+        <em class="article__description">
+            <time>{{ page.date | date_to_string }}</time>
+            <span class="reading-time" title="Estimated read time"> - {{ readingtime }} </span>
+        </em>
 
-</article>
+        <div class="article__content">
+            {{ content }}
+        </div>
+
+    </article>
+
+</section>

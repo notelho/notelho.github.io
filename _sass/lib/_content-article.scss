@@ -1,78 +1,82 @@
-.article, .article__back{
-    margin: 0 250px;
+#content-article{
 
-    &, & > * {
-        box-sizing: border-box;
-    }
+    .article, .article__back{
+        margin: 0 250px;
 
-    @media (max-width: $breakpoint-m) {
-        margin: 0 130px;
-    }
-
-    @media (max-width: $breakpoint-s) {
-        margin: 0 80px;
-    }
-
-    @media (max-width: $breakpoint-xs) {
-        margin: 0 10px;
-    }
-}
-
-.article{
-
-    .article__title{
-        margin: 20px 0 0 0;
-        padding: 0;
-        width: 100%;
-    }
-
-    .article__description{
-        margin-bottom: 10px;
-        padding-bottom: 5px;
-        border-bottom: solid 1px #f6f8fa;
-        width: 100%;
-        display: inline-block;
-    }
-
-    .article__content{
-        min-height: 100vh;
-
-        p{
-            text-indent: 50px;
+        &, & > * {
+            box-sizing: border-box;
         }
 
-        pre{
-            padding: 16px;
-            overflow: auto;
-            font-size: 85%;
-            line-height: 1.45;
-            background-color: #f6f8fa;
-            border-radius: 4px;
+        @media (max-width: $breakpoint-m) {
+            margin: 0 130px;
         }
 
-        a{
-            text-decoration: none;
-            font-weight: bold;
-            color: $primary;
+        @media (max-width: $breakpoint-s) {
+            margin: 0 80px;
         }
 
-        img{
-            max-width: 100%;
+        @media (max-width: $breakpoint-xs) {
+            margin: 0 10px;
         }
     }
-}
 
-.article__back{
-    margin-top: 30px;
+    .article{
 
-    h4{
-        display: inline;
-        color: #aaaaaa;
-        font-weight: 400;
+        .article__title{
+            margin: 20px 0 0 0;
+            padding: 0;
+            width: 100%;
+        }
 
-        &:hover{
-            cursor: pointer;
-            color: #999999;
+        .article__description{
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: solid 1px #f6f8fa;
+            width: 100%;
+            display: inline-block;
+        }
+
+        .article__content{
+            min-height: 100vh;
+
+            p{
+                text-indent: 50px;
+            }
+
+            pre{
+                padding: 16px;
+                overflow: auto;
+                font-size: 85%;
+                line-height: 1.45;
+                background-color: #f6f8fa;
+                border-radius: 4px;
+            }
+
+            a{
+                text-decoration: none;
+                font-weight: bold;
+                color: $primary;
+            }
+
+            img{
+                max-width: 100%;
+            }
         }
     }
+
+    .article__back{
+        margin-top: 30px;
+
+        h4{
+            display: inline;
+            color: #aaaaaa;
+            font-weight: 400;
+
+            &:hover{
+                cursor: pointer;
+                color: #999999;
+            }
+        }
+    }
+
 }
