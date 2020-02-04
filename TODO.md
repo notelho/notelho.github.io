@@ -13,8 +13,6 @@
 
     - home header -> "footer"
 
-    - id pattern
-
 
 - soon:
     - page: patterns and gradients

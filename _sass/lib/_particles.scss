@@ -1,0 +1,35 @@
+// #header-js{
+//     @include bg-pattern;
+//     width: 100%;
+//     position: relative; 
+
+//     &.home{
+//         min-height: 100vh;
+//         height: 100vh;
+//     }
+
+//     &.page{
+//         min-height: 10vh;
+//         height: 10vh;
+//         @media (max-width: $breakpoint-xs){
+//             min-height: 12vh;
+//             height: 12vh;
+//         }
+//     }
+
+// }
+
+// #alt-js{
+//     @include bg-pattern;
+//     // position: absolute;
+//     // z-index: 1;
+//     // width: 100%;
+//     // height: 100%;
+// }
+
+// #header-js, #alt-js{
+//     .particles-js-canvas-el {
+//         width:100% !important;
+//         height:100% !important;
+//     }
+// }

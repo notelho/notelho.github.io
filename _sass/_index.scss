@@ -4,19 +4,21 @@
 
 @import 'lib/variables';
 @import 'lib/mixins';
-@import 'lib/particle';
-@import 'lib/base';
+@import 'lib/defaults';
+// @import 'lib/particles';
 @import 'lib/animation';
-@import 'lib/footer';
-@import 'lib/article';
 
-@import 'lib/home-header';
-@import 'lib/home-about';
-@import 'lib/home-projects';
-@import 'lib/home-articles';
+@import 'lib/base-footer';
 
-@import 'lib/page-header';
-@import 'lib/page-projects';
-@import 'lib/page-articles';
-@import 'lib/page-notfound';
-@import 'lib/page-paginator';
+// @import 'lib/header-home';
+// @import 'lib/header-nav';
+
+// @import 'lib/sample-about';
+// @import 'lib/sample-projects';
+// @import 'lib/sample-articles';
+
+@import 'lib/content-article';
+// @import 'lib/content-articles';
+// @import 'lib/content-projects';
+// @import 'lib/content-notfound';
+// @import 'lib/content-paginator';

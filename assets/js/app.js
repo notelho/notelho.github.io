@@ -115,9 +115,13 @@ document.addEventListener("DOMContentLoaded", function () {
     "retina_detect": false
   }
 
-  particlesJS('header-js', particleJsOptions)
+  const elements = [
+    'header-js',
+    'alt-js'
+  ]
 
-  if (document.getElementById('alt-js'))
-    particlesJS('alt-js', particleJsOptions)
+  for (let element of elements)
+    if (document.getElementById(element))
+      particlesJS(element, particleJsOptions)
 
 }, false)
