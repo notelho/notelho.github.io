@@ -5,20 +5,20 @@
 @import 'lib/variables';
 @import 'lib/mixins';
 @import 'lib/defaults';
-// @import 'lib/particles';
+@import 'lib/particles';
 @import 'lib/animation';
 
 @import 'lib/base-footer';
 
-// @import 'lib/header-home';
-// @import 'lib/header-nav';
+@import 'lib/header-home';
+@import 'lib/header-nav';
 
-// @import 'lib/sample-about';
-// @import 'lib/sample-projects';
-// @import 'lib/sample-articles';
+@import 'lib/sample-about';
+@import 'lib/sample-projects';
+@import 'lib/sample-articles';
 
 @import 'lib/content-article';
-// @import 'lib/content-articles';
-// @import 'lib/content-projects';
-// @import 'lib/content-notfound';
-// @import 'lib/content-paginator';
+@import 'lib/content-articles';
+@import 'lib/content-paginator';
+@import 'lib/content-projects';
+@import 'lib/content-notfound';

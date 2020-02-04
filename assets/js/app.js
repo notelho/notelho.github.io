@@ -116,12 +116,14 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   const elements = [
-    'header-js',
-    'alt-js'
+    'notfound-js',
+    'header-nav',
+    'header-home',
   ]
 
   for (let element of elements)
     if (document.getElementById(element))
       particlesJS(element, particleJsOptions)
+
 
 }, false)

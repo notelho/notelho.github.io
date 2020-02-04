@@ -2,9 +2,9 @@ $postsize: 350px;
 $postoffset: 40px;
 $pagegap: 10px;
 
-.page__posts{
+.articles__all{
 
-    .page__description {
+    .articles__description {
         box-sizing: border-box;
         padding: 0 4vw;
 
@@ -21,7 +21,7 @@ $pagegap: 10px;
         }
     }
 
-    .list__posts{
+    .articles__list{
         justify-content: center;
         display: grid;
         grid-template-columns: repeat(3, $postsize);
