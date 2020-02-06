@@ -124,4 +124,28 @@
       }
     }
   }
+
+  .home__transition{
+    position: absolute;
+    width: 100%;
+    height: $gap;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    bottom: 0;
+    left: 0;
+
+    .transition__bar{
+      width: calc(100% / 20);
+      background-color: white;
+      height: 100%;
+
+      @for $i from 1 through 20{
+        &:nth-child(#{$i}){
+          height: #{random(100) * 1%};
+        }
+      }
+    }
+  }
 }

@@ -11,9 +11,6 @@
     - projects -> codepen/gitgub
     - add box-shadow to projects/codepen
 
-    - home header -> "footer"
-
-
 - soon:
     - page: patterns and gradients
     - page: courses and certifications
