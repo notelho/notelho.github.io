@@ -16,8 +16,8 @@
 }
 
 #header-home{
-    min-height: 100vh;
-    height: 100vh;
+    min-height: calc(100vh + #{$gap});
+    height: calc(100vh + #{$gap});
 }
 
 #header-nav{
