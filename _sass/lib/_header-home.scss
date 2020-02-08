@@ -112,7 +112,6 @@
       top: 50%;
       left: 50%;
       width: 100px;
-      // height: 100px;
       fill: #ffffff;
       -webkit-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
@@ -133,17 +132,29 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    bottom: 0;
+    bottom: -2px;
     left: 0;
 
     .transition__bar{
-      width: calc(100% / 20);
+      width: calc( #{ 100% / 20 } + 1px);
       background-color: white;
       height: 100%;
 
       @for $i from 1 through 20{
         &:nth-child(#{$i}){
           height: #{random(100) * 1%};
+        }
+      }
+
+      @media (max-width: $breakpoint-m) {
+        width: calc( #{ 100% / 10 } + 1px);
+
+        @for $i from 1 through 20{
+          &:nth-child(#{$i}){
+            @if $i >= 10{
+              display: none;
+            }
+          }
         }
       }
     }
