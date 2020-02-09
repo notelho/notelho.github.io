@@ -1,33 +1,21 @@
 <section id="content-articles">
 
     <div class="articles__description">
-        <h2> These are some of my posts/articles. </h2>
+        <h2> Check my articles list below:</h2>
         <p>
-            Once you understand that the posts are not a big deal, <br>
-            check the articles list below:
+            There's nothing special there, just a few things to remember in your daily life, <br>
+            like installations, links, code snippets, and others.
         </p>
     </div>
 
-    <div class="articles__list">
+    <div class="articles__list" id="articles-list">
+
         {% for post in paginator.posts %}
 
-        <article class="post">
-            <img class="post__thumb" src="/assets/thumbs/{{post.thumb}}" alt="">
-            <div class="post__content">
-                <div class="content__wrapper">
-                    <h3> {{ post.title }} </h3>
-                    <time> {{ post.date | date_to_string }} </time>
-                    <p> {{post.content | strip_html | strip_newlines | truncate: 230 }} </p>
-                    <div>
-                        <a href="{{ site.baseurl }}{{ post.url }}">
-                            <i class="fas fa-angle-double-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </article>
+            {% include single-article.html %}
 
         {% endfor %}
+
     </div>
 
 </section>

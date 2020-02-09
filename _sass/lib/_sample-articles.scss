@@ -1,117 +1,77 @@
+$postsize: 350px;
+$postoffset: 40px;
+$pagegap: 10px;
+
 #sample-articles { 
-  padding: 0 5vw;
-  margin-bottom: 60px;
-
-  @media only screen and (max-width: $breakpoint-s) {
-    padding: 0 15px;
-  }
-
-  .articles__title{
-    h1{
-      margin-top: 15px;
-      margin-bottom: 20px;
-    }
-    @media only screen and (max-width: $breakpoint-s) {
-      text-align: center;
-    }
-  }
-
-  .articles__about{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 4vw;
+    padding: 0 5vw;
+    margin-bottom: 25px;
 
     @media only screen and (max-width: $breakpoint-s) {
-      grid-gap: 0;
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto;
-      display: flex;
-      flex-direction: column-reverse;
-      margin-bottom: 30px;
+        padding: 0 15px;
     }
 
-    .about__tumb{
-      width: 100%;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-
-      img, iframe{  
-        width: 400px;
-        border-radius: 10px;
-        user-select: none;
-        overflow: hidden;
-        height: auto;
-        z-index: -1;
-        box-shadow: 0px 0px 50px -30px rgba(0, 0, 0, 0.75);
-
-        @media only screen and (max-width: $breakpoint-m) {
-          width: 320px;
+    .articles__title{
+        h1{
+            margin-top: 15px;
+            margin-bottom: 20px;
         }
         @media only screen and (max-width: $breakpoint-s) {
-          width: 100%;
+            text-align: center;
         }
-      }
     }
 
-    .about__content{
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-      flex-direction: column;
-
-      & > * {
+    .articles__smallist{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(4, $postsize);
+        grid-gap: $pagegap;
         box-sizing: border-box;
-        padding: unset;
-        margin: unset;
-        width: 400px;
-        text-align: end;
+        padding: $pagegap $pagegap 0 $pagegap;
 
-        @media only screen and (max-width: $breakpoint-m) {
-          width: 320px;
+        @media (max-width: ($postsize * 4) + ($pagegap * 4) - 1px ){
+            grid-template-columns: repeat(3, $postsize);
+            .post:nth-child(4){
+                display: none;
+            }
         }
-        @media only screen and (max-width: $breakpoint-s) {
-          width: 100%;
-          padding: 10px 10px 0 10px !important;
-          text-align: center;
+
+        @media (max-width: ($postsize * 3) + ($pagegap * 3) - 1px ){
+            grid-template-columns: repeat(2, $postsize);
+            .post:nth-child(4){
+                display: block;
+            }
         }
-      }
 
-      h3{
-        padding: 10px 0 0 0;
-      }
+        @media (max-width: ($postsize * 2) + ($pagegap * 3) - 1px ){
+            grid-template-columns: repeat(1, $postsize);
+        }
 
-      .about__goto{
-        padding: 10px 0;
+    }
+
+    .articles__seemore{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
 
         a{
-          text-decoration: none;
-          border: solid 2px $primary;
-          text-align: center;
-          color: $primary;
-          padding: 6px 14px;
-          border-radius: 25px;
-          transition: ease-out all .1s;
+            text-decoration: none !important;
+            outline: 0 !important;
+            color: $primary;
+            font-weight: 600;
+            background-color: #ffffff;
+            padding: 6px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 35px;
+            margin: 0 5px;
 
-          &:hover {
-            background: $primary;
-            color: #ffffff;
-            border: solid 2px #ffffff;
-          }
-
-          &:active {
-            background: $primary;
-            color: #ffffff;
-            border: solid 2px #ffffff;
-          }
+            &:hover{
+                color: #ffffff;
+                background-color: $primary;
+                cursor: pointer;
+                font-weight: 400;
+            }
         }
-
-        @media only screen and (max-width: $breakpoint-s) {
-          margin-top: 10px;
-          text-align: center;
-        }
-      }
     }
-  }
 }
