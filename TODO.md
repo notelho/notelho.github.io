@@ -1,17 +1,12 @@
 - next: 
 
-    - flame background images home: projects/articles
-    - animated backgrounds project
+    - flame/rotate showcase
 
-    - recent articles (4)
-
-    - projects restructuring
-    - page: view projects
+    - codepen restructuring
     - page: github projects
-    - projects -> codepen/gitgub
-    - add box-shadow to projects/codepen
 
 - soon:
+    - page: view projects
     - page: patterns and gradients
     - page: courses and certifications
     - page: my svgs
