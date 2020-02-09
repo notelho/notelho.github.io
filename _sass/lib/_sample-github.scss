@@ -1,4 +1,4 @@
-#sample-projects { 
+#sample-github { 
   padding: 0 5vw;
   margin-bottom: 25px;
 
@@ -6,7 +6,7 @@
     padding: 0 15px;
   }
 
-  .projects__title{
+  .github__title{
     h1{
       margin-top: 15px;
       margin-bottom: 20px;
@@ -16,7 +16,7 @@
     }
   }
 
-  .projects__about{
+  .github__about{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 4vw;

@@ -1,11 +1,12 @@
-- next: 
-
+- end: 
     - flame/rotate showcase
-
+    - showcase clip
     - codepen restructuring
     - page: github projects
+    - 4 articles
 
 - soon:
+    - page: view codepen
     - page: view projects
     - page: patterns and gradients
     - page: courses and certifications

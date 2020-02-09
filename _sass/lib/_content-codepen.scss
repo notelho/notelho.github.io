@@ -1,0 +1,149 @@
+#content-codepen{
+    position: relative;
+
+    .projects__description {
+        box-sizing: border-box;
+        padding: 0 4vw;
+
+        h2{
+            @media (min-width: $breakpoint-m){
+                margin-bottom: 0;
+            }
+        }
+        p{
+            text-align: center;
+            @media (max-width: $breakpoint-m){
+                display: none;
+            }
+        }
+    }
+
+    .projects__list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(20vw, 8);
+        grid-template-areas:
+            'a1  a1  a2'
+            'a1  a1  a3'
+            'a6  a5  a4'
+            'a7  a9  a9'
+            'a8  a9  a9'
+            'a10 a11 a12'
+            'a15 a15 a13'
+            'a15 a15 a14';
+        align-content: center;
+        justify-content: center;
+        box-sizing: border-box;
+        grid-gap: 10px;
+        padding: 10px 4vw;
+
+        @media (max-width: $breakpoint-m){
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 0;
+        }
+
+        .project{
+            position: relative;
+            user-select: none;
+            width: 100%;
+            height: 100%;
+
+            @media (max-width: $breakpoint-m){
+                height: 80vw;
+                width: 95%;
+                margin: 0 2.5% 10px 2.5%;
+            }
+
+            @for $i from 1 through 15{
+                &:nth-child(#{$i}){
+                    grid-area: #{'a' + $i};
+                }
+            }
+
+            &:hover{
+                .project__name{
+                    opacity: 1;
+                    -webkit-transform: translateX(0);
+                        -ms-transform: translateX(0);
+                            transform: translateX(0);
+                }
+                .project__redirect{
+                    opacity: 1;
+                }
+                .project__sample iframe{
+                    -webkit-transform: scale(1.1);
+                        -ms-transform: scale(1.1);
+                            transform: scale(1.1);
+                }
+            }
+            & * {
+                transition: ease-out all 300ms;
+            }
+            .project__name{
+                -webkit-transform: translateX(-70px);
+                    -ms-transform: translateX(-70px);
+                        transform: translateX(-70px);
+                background-color: #ffffff;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                margin: 0;
+                opacity: 0;
+                padding: 5px 10px;
+                z-index: 3;
+            }
+            .project__sample{
+                background-color: $primary;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                border-radius: 10px;
+                &, & > * {
+                    padding: 0;
+                    margin: 0;
+                }
+                iframe{
+                    width: 100%;
+                    height: 100%;
+                    z-index: -1;
+                    border: none;
+                    outline: 0;
+                }
+            }
+
+            .project__redirect{
+                opacity: 0;
+                position: absolute;
+                top: 5px;
+                right: 5px;
+                display: flex;
+                justify-content: flex-end;
+                align-items: start;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 2;
+                text-decoration: none !important;
+                color: #ffffff !important;
+                outline: 0;
+                @media (max-width: $breakpoint-m){
+                    display: none;
+                }
+                i{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    box-sizing: border-box;
+                    width: 30px;
+                    height: 30px;
+                    padding: 15px;
+                    border: solid 1px #ffffff;
+                    border-radius: 4px;
+                    background-color: $primary;
+                }
+            }
+        }
+    }
+}
