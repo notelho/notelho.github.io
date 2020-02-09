@@ -1,13 +1,9 @@
 #sample-about {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    max-width: 960px;
-
-    @media only screen and (min-width: $breakpoint-s) {
-        width: 80%;
-    }
 
     .about__details {
+        width: 80%;
         text-align: center;
         margin: 5px auto;
         margin-bottom: 2em;
@@ -18,7 +14,10 @@
         font-size: 75px;
         display: flex;
         flex-wrap: nowrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        width: 90%;
+        max-width: 1024px;
 
         @media only screen and (max-width: $breakpoint-s) {
             flex-wrap: wrap;
@@ -33,14 +32,16 @@
             box-shadow: 0px 0px 50px -30px rgba(0, 0, 0, 0.75);
             background-color: #ffffff;
             width: 28%;
-            margin: 10px 0;
-            padding: 10px 20px;
+            margin: 10px 15px;
+            padding: 10px 15px;
 
             h2{
                 margin-top: 0;
             }
 
             @media only screen and (max-width: $breakpoint-s) {
+                margin: 5px 10px;
+                padding: 10px 20px;
                 width: 100%;
             }
         }

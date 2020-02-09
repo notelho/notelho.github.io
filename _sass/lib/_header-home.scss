@@ -13,27 +13,31 @@
     align-items: center;
     flex-direction: column;
 
-    .header__title {
-      font-size: 50px;
-      display: block;
-      line-height: 1;
-      color: #ffffff;
+    h1{
+      margin-top: -80px;
 
-      @media only screen and (min-width:$breakpoint-s){
-        margin: 0;
-        font-size: 100px;
+      .header__title {
+        font-size: 50px;
+        display: block;
+        line-height: 1;
+        color: #ffffff;
+
+        @media only screen and (min-width:$breakpoint-s){
+          margin: 0;
+          font-size: 100px;
+        }
       }
-    }
 
-    .header__description {
-      font-size: 20px;
-      display: block;
-      line-height: 1;
-      color: #ffffff;
-      margin-top: 10px;
+      .header__description {
+        font-size: 20px;
+        display: block;
+        line-height: 1;
+        color: #ffffff;
+        margin-top: 10px;
 
-      @media only screen and (min-width:$breakpoint-s){
-        font-size: 40px;
+        @media only screen and (min-width:$breakpoint-s){
+          font-size: 40px;
+        }
       }
     }
 
