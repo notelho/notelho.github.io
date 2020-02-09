@@ -41,3 +41,23 @@
         top: 0
     }
 }
+
+@keyframes showcase__bubblesize {
+    0%, 75% {
+        width:var(--size, 20vh);
+        height:var(--size, 20vh);
+    }
+    100% {
+        width: 0rem;
+        height: 0rem;
+    }
+}
+
+@keyframes showcase__bubblemove {
+    0% {
+        bottom:-4rem;
+    }
+    100% {
+        bottom:var(--distance, 10rem);
+    }
+}

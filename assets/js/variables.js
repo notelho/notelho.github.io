@@ -2,6 +2,8 @@ const particle_js_elements = [
     'notfound-js',
     'header-nav',
     'header-home',
+    'showcase-github',
+    'showcase-codepen'
 ]
 
 const particle_js_option = {

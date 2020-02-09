@@ -36,12 +36,15 @@
 
       img, iframe{
         width: 400px;
-        border-radius: 10px;
+        height: 251px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
         user-select: none;
         overflow: hidden;
-        height: auto;
+        outline: 0 !important;
+        border: 0 !important;
         z-index: -1;
-        box-shadow: 0px 0px 50px -30px rgba(0, 0, 0, 0.75);
+        clip-path: circle(55% at center center);
 
         @media only screen and (max-width: $breakpoint-m) {
           width: 320px;
