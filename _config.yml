@@ -1,4 +1,4 @@
-title: Nathan's blog
+title: Notelho's blog
 description: ""
 email: nimbotelho@gmail.com
 url: "https://notelho.github.io"
@@ -9,6 +9,7 @@ permalink: /:year/:month/:day/:title/
 paginate_path: /articles/:num/
 paginate: 6
 
+author: Notelho
 username: Nathan Botelho
 user_title: Software Developer
 user_description: Software developer, focusing on web front-end, I am a student of information systems with a strong interest in the areas of cyber security, artificial intelligence and data protection.
