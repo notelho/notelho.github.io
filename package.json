@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "jekyll serve"
+    "start": "jekyll serve",
+    "apply": "sh ./git.sh"
   },
   "author": "Nathan Botelho",
   "license": "MIT"
