@@ -1,7 +1,7 @@
 - end: 
-    - flame/rotate showcase and clip
     - codepen restructuring
     - page: github projects
+    - gitgub listage integration
     - 4 articles
     - js car
 
