@@ -1,6 +1,5 @@
 - end: 
-    - flame/rotate showcase
-    - showcase clip
+    - flame/rotate showcase and clip
     - codepen restructuring
     - page: github projects
     - 4 articles
