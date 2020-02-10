@@ -1,13 +1,12 @@
 - end: 
-    - codepen restructuring
     - page: github projects
-    - gitgub listage integration
+    - gitgub listage integration/with errors
+    - codepen refactoring
     - 4 articles
     - js car
 
 - soon:
     - page: view codepen
-    - page: view projects
     - page: patterns and gradients
     - page: courses and certifications
     - page: my svgs
