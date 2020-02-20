@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: pink;
+}
+
+.container {
+    width: 800px;
+    background-color: blue;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    padding-left: 0px;
+}
+
+img {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav {}
