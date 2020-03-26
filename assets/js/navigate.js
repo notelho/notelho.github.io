@@ -23,6 +23,8 @@ function lastPostPage() {
     if (last) {
         last = JSON.parse(last)
         navigate = `${last.url}${last.path}`
+    }else{
+        navigate = `${url}/articles/`
     }
 
     window.location.href = navigate
