@@ -3,8 +3,7 @@
     - gitgub listage integration/with errors
     - codepen refactoring
     - 4 articles
-    - /projects/codepen do blog
-    - /projects/github do blog
+    - a:hover text-decoration
 
 - soon:
     - page: view codepen

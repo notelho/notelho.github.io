@@ -73,6 +73,10 @@
                     text-decoration: none;
                     font-weight: bold;
                     color: $primary;
+
+                    &:hover{
+                        text-decoration: underline;
+                    }
                 }
                 @media (max-width: $breakpoint-s){
                     padding: 0 10px;
