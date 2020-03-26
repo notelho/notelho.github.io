@@ -3,7 +3,8 @@
     - gitgub listage integration/with errors
     - codepen refactoring
     - 4 articles
-    - js car
+    - /projects/codepen do blog
+    - /projects/github do blog
 
 - soon:
     - page: view codepen
