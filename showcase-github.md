@@ -1,6 +1,6 @@
 ---
 layout: showcase
 title: showcase-github
-permalink: /sc-github/
+permalink: /showcase/github/
 icon: github
 ---

@@ -1,6 +1,6 @@
 ---
 layout: showcase
 title: showcase-codepen
-permalink: /sc-codepen/
+permalink: /showcase/codepen/
 icon: codepen
 ---

@@ -1,6 +1,6 @@
 ---
 layout: codepen
 title: Nathan's codepen projects
-permalink: /projects-codepen/
+permalink: /projects/codepen/
 description: Codepen projects list
 ---
