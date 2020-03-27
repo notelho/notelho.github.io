@@ -1,14 +1,17 @@
 - id: 1
   name: box-shadow-doggo
   path: /codepen/box-shadow-doggo/
+  spotlight: true
 
 - id: 2
   name: bar-progress
   path: /codepen/bar-progress/
+  spotlight: true
 
 - id: 3
   name: bar-chart
   path: /codepen/bar-chart/
+  spotlight: true
 
 - id: 4
   name: box-shadow-jojo

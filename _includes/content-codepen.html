@@ -2,46 +2,37 @@
 
     <div class="codepen__description">
 
-        <h1>soon</h1>
+        <h2> There are some of my codepen projects </h2>
 
-        <!-- <h2> These are some of my favorite codepen projects </h2>
-        <p class="desktop-only">
-            <br> <span> As my projects grow, I will update the list with my favorites only </span>
-            <br> <span class="small"> *Hover a project to see its name </span>
-            <br> <span class="small"> *Click on a project to open full screen </span>
-        </p> -->
+        <p> Click on the "view" button to be redirected to the corresponding page in codepen: </p>
+
     </div>
 
     <div class="codepen__projects">
-
-
 
         <!-- <h4 class="project__name"> {{project.name}} </h4>
         <a class="project__redirect" href="{{ project.path | prepend: site.baseurl }}">
             <i class="fas fa-arrow-right"></i>
         </a> -->
 
-        <div class="projects__sample" id="js-codepen-sample">
-
+        <div class="projects__spotlight">
 
 
         </div>
 
-
-        <div class="projects__navigation">
+        <div class="projects__list">
 
             {% for project in site.data.codepen %}
 
             <div class="project__sample" onclick="openSample('{{project.name}}','{{project.path}}')">
+
                 <iframe src="{{ project.path | prepend: site.baseurl }}" name="{{project.name}}"></iframe>
+
             </div>
 
             {% endfor %}
 
         </div>
-
-
-
 
     </div>
 
