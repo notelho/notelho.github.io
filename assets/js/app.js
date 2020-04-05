@@ -39,9 +39,9 @@ function lastPostPage() {
     window.location.href = navigate
 }
 
-function openSample(name, path) {
+// function openSample(name, path) {
 
-    console.log(name);
-    console.log(path);
+//     console.log(name);
+//     console.log(path);
 
-}
+// }

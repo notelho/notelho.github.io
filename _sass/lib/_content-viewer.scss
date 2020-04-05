@@ -1,6 +1,6 @@
-#content-article{
+#content-viewer{
 
-    .article, .article__back{
+    .viewer, .viewer__back{
         margin: 0 250px;
 
         &, & > * {
@@ -20,15 +20,15 @@
         }
     }
 
-    .article{
+    .viewer{
 
-        .article__title{
+        .viewer__title{
             margin: 20px 0 0 0;
             padding: 0;
             width: 100%;
         }
 
-        .article__description{
+        .viewer__description{
             margin-bottom: 10px;
             padding-bottom: 5px;
             border-bottom: solid 1px #f6f8fa;
@@ -36,7 +36,7 @@
             display: inline-block;
         }
 
-        .article__content{
+        .viewer__content{
             min-height: 100vh;
 
             p{
@@ -64,7 +64,7 @@
         }
     }
 
-    .article__back{
+    .viewer__back{
         margin-top: 30px;
 
         h4{

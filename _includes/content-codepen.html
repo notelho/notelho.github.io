@@ -1,38 +1,17 @@
 <section id="content-codepen">
 
     <div class="codepen__description">
-
         <h2> There are some of my codepen projects </h2>
-
         <p> Click on the "view" button to be redirected to the corresponding page in codepen: </p>
-
     </div>
 
-    <div class="codepen__projects">
+    <div class="codepen__list">
 
-        <!-- <h4 class="project__name"> {{project.name}} </h4>
-        <a class="project__redirect" href="{{ project.path | prepend: site.baseurl }}">
-            <i class="fas fa-arrow-right"></i>
-        </a> -->
+        {% for project in site.data.codepen %}
 
-        <div class="projects__spotlight">
+        {% include single-codepen.html %}
 
-
-        </div>
-
-        <div class="projects__list">
-
-            {% for project in site.data.codepen %}
-
-            <div class="project__sample" onclick="openSample('{{project.name}}','{{project.path}}')">
-
-                <iframe src="{{ project.path | prepend: site.baseurl }}" name="{{project.name}}"></iframe>
-
-            </div>
-
-            {% endfor %}
-
-        </div>
+        {% endfor %}
 
     </div>
 
