@@ -6,13 +6,15 @@
 
         <iframe src="{{ project.path | prepend: site.baseurl }}"></iframe>
 
-        <h6> {{project.name}} </h6>
+        <div class="codepen__info">
 
-        <div class="buttons">
+            <h5> {{project.name}} </h5>
 
-            <button class="view">
-                view
-            </button>
+            <div class="actions">
+
+                <a href="{{ project.path | prepend: site.baseurl }}"> live </a>
+
+            </div>
 
         </div>
 

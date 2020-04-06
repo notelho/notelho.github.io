@@ -2,7 +2,10 @@
 
     <div class="codepen__description">
         <h2> There are some of my codepen projects </h2>
-        <p> Click on the "view" button to be redirected to the corresponding page in codepen: </p>
+        <p>
+            Click on the "codepen" button to be redirected to the corresponding page in codepen or <br>
+            the "live" button to view in full screen in github pages version.
+        </p>
     </div>
 
     <div class="codepen__list">
@@ -10,7 +13,7 @@
         {% for project in site.data.codepen %}
 
         {% include single-codepen.html %}
-
+        
         {% endfor %}
 
     </div>
