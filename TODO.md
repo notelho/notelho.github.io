@@ -2,7 +2,6 @@
     - page: github projects
     - gitgub listage integration/with errors
     - 4 articles
-    - a:hover text-decoration
     - languages
     - review all mobile pages
 

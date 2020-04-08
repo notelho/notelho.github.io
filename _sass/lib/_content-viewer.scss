@@ -56,6 +56,9 @@
                 text-decoration: none;
                 font-weight: bold;
                 color: $primary;
+                &:hover{
+                    text-decoration: underline;
+                }
             }
 
             img{
@@ -78,5 +81,4 @@
             }
         }
     }
-
 }
