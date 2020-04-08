@@ -2,11 +2,11 @@
 @import 'vendor/fontawesome';
 @import 'vendor/normalize';
 
-@import 'lib/variables';
-@import 'lib/mixins';
-@import 'lib/defaults';
-@import 'lib/particles';
-@import 'lib/animation';
+@import 'environment/variables';
+@import 'environment/mixin';
+@import 'environment/defaults';
+@import 'environment/custom';
+@import 'environment/keyframes';
 
 @import 'lib/base-footer';
 

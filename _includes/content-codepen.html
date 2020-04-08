@@ -8,12 +8,28 @@
         </p>
     </div>
 
+    <div class="codepen__hightlight">
+
+        <!-- {% if page.platform == "mac" %}
+
+        {% elsif page.platform == "windows" %}
+
+        {% endif %} -->
+
+        {% for project in site.data.codepen %}
+
+        {% include single-codepen.html %}
+
+        {% endfor %}
+
+    </div>
+
     <div class="codepen__list">
 
         {% for project in site.data.codepen %}
 
         {% include single-codepen.html %}
-        
+
         {% endfor %}
 
     </div>
