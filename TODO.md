@@ -18,6 +18,3 @@
 
 - home
     - mobile flame não funciona, mudar pra um clip-path redondo apenas
-
-- etc
-    - achar as variaveis com nomes iguais e diferenciar pra cada pagina
