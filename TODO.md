@@ -10,6 +10,3 @@
     - page: patterns and gradients
     - page: courses and certifications
     - page: my svgs
-
-- home
-    - mobile flame não funciona, mudar pra um clip-path redondo apenas

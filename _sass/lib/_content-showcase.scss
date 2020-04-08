@@ -51,6 +51,10 @@ $flame-color: #ffffff;
             grid-area: footer;
             height: 20vh;
 
+            @media (max-device-width: $breakpoint-s) {
+                background: transparent;
+            }
+
             .footer__bubbles {
                 position: absolute;
                 top:0;
@@ -59,6 +63,10 @@ $flame-color: #ffffff;
                 height: 1rem;
                 background: $flame-color;
                 filter: url("#blob");
+
+                @media (max-device-width: $breakpoint-s) {
+                    display: none;
+                }
 
                 .footer__bubble {
                     position: absolute;

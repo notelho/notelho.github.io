@@ -50,6 +50,7 @@
                     width: 320px;
                 }
                 @media only screen and (max-width: $breakpoint-s) {
+                    clip-path: circle(30% at center center);
                     width: 100%;
                 }
             }
