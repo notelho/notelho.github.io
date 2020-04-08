@@ -1,62 +1,77 @@
 - id: 1
   name: box-shadow-doggo
   path: /codepen/box-shadow-doggo/
+  codepen: https://codepen.io/NathanBotelho/pen/bORLEP
   spotlight: true
 
 - id: 2
   name: bar-progress
   path: /codepen/bar-progress/
+  codepen: https://codepen.io/NathanBotelho/pen/wRNpPK
   spotlight: true
 
 - id: 3
   name: bar-chart
   path: /codepen/bar-chart/
+  codepen: https://codepen.io/NathanBotelho/pen/vbYEwg
 
 - id: 4
   name: box-shadow-jojo
   path: /codepen/box-shadow-jojo/
+  codepen: https://codepen.io/NathanBotelho/pen/wRZQjj
   spotlight: true
 
 - id: 5
   name: circle-tech
   path: /codepen/circle-tech/
+  codepen: https://codepen.io/NathanBotelho/details/REgbZd
 
 - id: 6
   name: circle-wind
   path: /codepen/circle-wind/
+  codepen: https://codepen.io/NathanBotelho/pen/qLmmyL
 
 - id: 7
   name: error-screen
   path: /codepen/error-screen/
+  codepen: https://codepen.io/NathanBotelho/pen/MZmMzz
 
 - id: 8
   name: moving-background
   path: /codepen/moving-background/
+  codepen: https://codepen.io/NathanBotelho/details/ZdVMzO
 
 - id: 9
   name: pokeball
   path: /codepen/pokeball/
+  codepen: https://codepen.io/NathanBotelho/pen/vYBNZOR
 
 - id: 10
   name: radio-tower
   path: /codepen/radio-tower/
+  codepen: https://codepen.io/NathanBotelho/pen/LMyLoZ
 
 - id: 11
   name: svg-moving-test
   path: /codepen/svg-moving-test/
+  codepen: https://codepen.io/NathanBotelho/details/gZRpeV
 
 - id: 12
   name: text-loading
   path: /codepen/text-loading/
+  codepen: https://codepen.io/NathanBotelho/pen/jdrJKZ
 
 - id: 13
   name: waves-music
   path: /codepen/waves-music/
+  codepen: https://codepen.io/NathanBotelho/pen/bOWaOy
 
 - id: 14
   name: waves-voice
   path: /codepen/waves-voice/
+  codepen: https://codepen.io/NathanBotelho/pen/KbJyYd
 
 - id: 15
   name: waves-voice
   path: /codepen/waves-voice/
+  codepen: https://codepen.io/NathanBotelho/pen/KbJyYd
