@@ -11,11 +11,11 @@
 - id: 3
   name: bar-chart
   path: /codepen/bar-chart/
-  spotlight: true
 
 - id: 4
   name: box-shadow-jojo
   path: /codepen/box-shadow-jojo/
+  spotlight: true
 
 - id: 5
   name: circle-tech

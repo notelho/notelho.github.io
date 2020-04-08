@@ -14,7 +14,6 @@
 
 - codepen
     - codepen redirect/links
-    - destaque
 
 - home
     - mobile flame não funciona, mudar pra um clip-path redondo apenas

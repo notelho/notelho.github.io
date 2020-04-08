@@ -16,8 +16,8 @@
 }
 
 #header-home{
-    min-height: calc(100vh + #{$transitiongap});
-    height: calc(100vh + #{$transitiongap});
+    min-height: calc(100vh + #{$bigoffset});
+    height: calc(100vh + #{$bigoffset});
 }
 
 #header-nav{

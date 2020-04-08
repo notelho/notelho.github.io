@@ -8,30 +8,28 @@
         </p>
     </div>
 
-    <div class="codepen__hightlight">
-
-        <!-- {% if page.platform == "mac" %}
-
-        {% elsif page.platform == "windows" %}
-
-        {% endif %} -->
-
+    <div class="codepen__spotlight">
         {% for project in site.data.codepen %}
+
+        {% if project.spotlight == true %}
 
         {% include single-codepen.html %}
 
-        {% endfor %}
+        {% endif %}
 
+        {% endfor %}
     </div>
 
     <div class="codepen__list">
-
         {% for project in site.data.codepen %}
+
+        {% if project.spotlight != true %}
 
         {% include single-codepen.html %}
 
-        {% endfor %}
+        {% endif %}
 
+        {% endfor %}
     </div>
 
 </section>
