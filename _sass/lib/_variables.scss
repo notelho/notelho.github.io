@@ -5,4 +5,14 @@ $breakpoint-m: 1024px;
 $breakpoint-s: 768px;
 $breakpoint-xs: 500px;
 
-$gap: 100px;
+$transitiongap: 100px;
+
+$defaultgap: 10px;
+$defaultsize: 350px;
+$defaultoffset: 40px;
+
+$smallgap: 5px;
+$smallsize: 280px;
+$smalloffset: 20px;
+
+$boxshadow: 0px 0px 50px -30px rgba(0, 0, 0, 0.75);

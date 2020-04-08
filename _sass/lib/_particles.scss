@@ -6,18 +6,18 @@
 }
 
 #header-home, #header-nav{
-    @include bg-pattern;
+    background-color: $primary;
     width: 100%;
     position: relative; 
 }
 
 #notfound-js{
-    @include bg-pattern;
+    background-color: $primary;
 }
 
 #header-home{
-    min-height: calc(100vh + #{$gap});
-    height: calc(100vh + #{$gap});
+    min-height: calc(100vh + #{$transitiongap});
+    height: calc(100vh + #{$transitiongap});
 }
 
 #header-nav{

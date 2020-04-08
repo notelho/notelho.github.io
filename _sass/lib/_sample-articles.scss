@@ -1,7 +1,3 @@
-$postsize: 350px;
-$postoffset: 40px;
-$pagegap: 10px;
-
 #sample-articles { 
     padding: 0 5vw;
     margin-bottom: 25px;
@@ -23,27 +19,27 @@ $pagegap: 10px;
     .articles__smallist{
         justify-content: center;
         display: grid;
-        grid-template-columns: repeat(4, $postsize);
-        grid-gap: $pagegap;
+        grid-template-columns: repeat(4, $defaultsize);
+        grid-gap: $defaultgap;
         box-sizing: border-box;
-        padding: $pagegap $pagegap 0 $pagegap;
+        padding: $defaultgap $defaultgap 0 $defaultgap;
 
-        @media (max-width: ($postsize * 4) + ($pagegap * 4) - 1px ){
-            grid-template-columns: repeat(3, $postsize);
+        @media (max-width: ($defaultsize * 4) + ($defaultgap * 4) - 1px){
+            grid-template-columns: repeat(3, $defaultsize);
             .post:nth-child(4){
                 display: none;
             }
         }
 
-        @media (max-width: ($postsize * 3) + ($pagegap * 3) - 1px ){
-            grid-template-columns: repeat(2, $postsize);
+        @media (max-width: ($defaultsize * 3) + ($defaultgap * 3) - 1px){
+            grid-template-columns: repeat(2, $defaultsize);
             .post:nth-child(4){
                 display: block;
             }
         }
 
-        @media (max-width: ($postsize * 2) + ($pagegap * 3) - 1px ){
-            grid-template-columns: repeat(1, $postsize);
+        @media (max-width: ($defaultsize * 2) + ($defaultgap * 3) - 1px){
+            grid-template-columns: repeat(1, $defaultsize);
         }
 
     }

@@ -100,7 +100,7 @@
   .home__down {
     color: lighten($primary, 20%);
     position: absolute;
-    bottom: calc(25px + #{$gap});
+    bottom: calc(25px + #{$transitiongap});
     width: 100%;
     margin: 0 auto;
     display: block;
@@ -131,7 +131,7 @@
   .home__transition{
     position: absolute;
     width: 100%;
-    height: $gap;
+    height: $transitiongap;
     background-color: transparent;
     display: flex;
     justify-content: center;

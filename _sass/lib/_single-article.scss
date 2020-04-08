@@ -8,14 +8,14 @@
     .post__thumb{
         width: calc(100% - 2px);
         border-radius: 5px;
-        padding-bottom: #{$postsize - ($postoffset * 3)};
+        padding-bottom: #{$defaultsize - ($defaultoffset * 3)};
     }
 
     .post__content{
         position: absolute;
-        bottom: #{$postoffset / 2};
+        bottom: #{$defaultoffset / 2};
         right: 2%;
-        height: $postsize;
+        height: $defaultsize;
         background-color: white;
         border-radius: 5px;
         box-shadow: 0px 0px 50px -30px rgba(0, 0, 0, 0.75);
@@ -44,7 +44,7 @@
                 align-items: flex-end;
                 height: 15%;
 
-                @media (max-width: ($postsize * 2) + ($pagegap * 3) - 1px ){
+                @media (max-width: ($defaultsize * 2) + ($defaultgap * 3) - 1px ){
                     overflow: hidden;
                     text-overflow: ellipsis;
                     white-space: nowrap;

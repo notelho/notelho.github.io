@@ -1,45 +1,42 @@
-// $postsize: 280px;
-// $pagegap: 10px;
+#content-codepen{
 
-// #content-codepen{
+    .codepen__description {
+        box-sizing: border-box;
+        padding: 0 4vw;
 
-//     .codepen__description {
-//         box-sizing: border-box;
-//         padding: 0 4vw;
+        h2{
+            @media (min-width: $breakpoint-m){
+                margin-bottom: 0;
+            }
+        }
+        p{
+            text-align: center;
+        }
+    }
 
-//         h2{
-//             @media (min-width: $breakpoint-m){
-//                 margin-bottom: 0;
-//             }
-//         }
-//         p{
-//             text-align: center;
-//         }
-//     }
+    .codepen__list{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(4, $smallsize);
+        grid-gap: $defaultgap;
+        box-sizing: border-box;
+        padding: $defaultgap $defaultgap 0 $defaultgap;
 
-//     .codepen__list{
-//         justify-content: center;
-//         display: grid;
-//         grid-template-columns: repeat(4, $postsize);
-//         grid-gap: $pagegap;
-//         box-sizing: border-box;
-//         padding: $pagegap $pagegap 0 $pagegap;
+        @media (max-width: ($smallsize * 4) + ($defaultgap * 4) - 1px){
+            grid-template-columns: repeat(3, $smallsize);
+        }
 
-//         @media (max-width: ($postsize * 4) + ($pagegap * 4) - 1px){
-//             grid-template-columns: repeat(3, $postsize);
-//         }
+        @media (max-width: ($smallsize * 3) + ($defaultgap * 4) - 1px){
+            grid-template-columns: repeat(2, $smallsize);
+        }
 
-//         @media (max-width: ($postsize * 3) + ($pagegap * 4) - 1px){
-//             grid-template-columns: repeat(2, $postsize);
-//         }
+        @media (max-width: ($smallsize * 2) + ($defaultgap * 3) - 1px){
+            grid-template-columns: repeat(1, $smallsize);
+        }
 
-//         @media (max-width: ($postsize * 2) + ($pagegap * 3) - 1px){
-//             grid-template-columns: repeat(1, $postsize);
-//         }
+        @media (max-width: 400px){
+            grid-template-columns: repeat(1, 100%);
+        }
 
-//         @media (max-width: 400px){
-//             grid-template-columns: repeat(1, 100%);
-//         }
-
-//     }
-// }
+    }
+}

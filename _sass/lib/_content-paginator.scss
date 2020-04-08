@@ -1,7 +1,3 @@
-$postsize: 350px;
-$postoffset: 40px;
-$pagegap: 10px;
-
 #content-paginator {
     width: 100%;
     display: flex;
@@ -15,11 +11,11 @@ $pagegap: 10px;
         justify-content: flex-end;
         align-items: center;
 
-        @media (max-width: ($postsize * 3) + ($pagegap * 3) - 1px ){
-            width: calc(350px * 2 + 20px);
+        @media (max-width: ($defaultsize * 3) + ($defaultgap * 3) - 1px ){
+            width: calc((#{$defaultsize} * 2) + (#{$defaultgap} * 2));
         }
 
-        @media (max-width: ($postsize * 2) + ($pagegap * 3) - 1px ){
+        @media (max-width: ($defaultsize * 2) + ($defaultgap * 3) - 1px ){
             width: 100%;
             justify-content: center;
         }
@@ -37,7 +33,7 @@ $pagegap: 10px;
             border-radius: 50%;
             margin: 0 5px;
 
-            @media (max-width: ($postsize * 2) + ($pagegap * 3) - 1px ){
+            @media (max-width: ($defaultsize * 2) + ($defaultgap * 3) - 1px ){
                 width: 30px;
                 height: 30px;
             }
@@ -52,7 +48,7 @@ $pagegap: 10px;
         .paginator__info{
             margin: 0 6px;
 
-            @media (max-width: ($postsize * 2) + ($pagegap * 3) - 1px ){
+            @media (max-width: ($defaultsize * 2) + ($defaultgap * 3) - 1px ){
                 margin: 0 8px;
             }
         }
@@ -64,7 +60,7 @@ $pagegap: 10px;
             height: 25px;
             border-radius: 50%;
 
-            @media (max-width: ($postsize * 2) + ($pagegap * 3) - 1px ){
+            @media (max-width: ($defaultsize * 2) + ($defaultgap * 3) - 1px ){
                 width: 30px;
                 height: 30px;
             }
